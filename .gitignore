@@ -1,3 +1,12 @@
+# Data
+data/bank_info.csv
+data/train_2014.csv
+data/train_2015.csv
+data/users_2014.csv
+data/users_2015.csv
+features/upselling_test.csv
+features/upselling_train.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
