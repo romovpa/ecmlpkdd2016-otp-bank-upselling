@@ -1,0 +1,1560 @@
+booster[0]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=170.763,cover=47809.5
+	1:[uniq_poi<4.5] yes=3,no=4,missing=3,gain=9.14923,cover=24327.8
+		3:[event_mc_d<5.5] yes=7,no=8,missing=7,gain=2.91445,cover=17210
+			7:leaf=-0.194985,cover=17208.8
+			8:leaf=-0.0222222,cover=1.25
+		4:[event_loc_c<62.5] yes=9,no=10,missing=9,gain=1.42612,cover=7117.75
+			9:leaf=-0.190007,cover=7104.25
+			10:leaf=-0.131034,cover=13.5
+	2:[event_card_d<7.5] yes=5,no=6,missing=5,gain=88.3525,cover=23481.8
+		5:[uniq_poi<1.5] yes=11,no=12,missing=11,gain=7.17069,cover=12017
+			11:leaf=-0.191042,cover=4989
+			12:leaf=-0.184991,cover=7028
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=59.2702,cover=11464.8
+			13:leaf=-0.172006,cover=9836.75
+			14:leaf=-0.193125,cover=1628
+booster[1]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=144.725,cover=47390.7
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=8.6589,cover=24101.4
+		3:[event_amt_b<11.5] yes=7,no=8,missing=7,gain=2.5987,cover=12394.2
+			7:leaf=-0.174731,cover=9973.44
+			8:leaf=-0.169362,cover=2420.81
+		4:leaf=-0.178114,cover=11707.2
+	2:[event_card_d<9.5] yes=5,no=6,missing=5,gain=74.9753,cover=23289.2
+		5:[card_last<0.5] yes=9,no=10,missing=9,gain=9.75365,cover=13011.5
+			9:leaf=-0.168609,cover=11357.9
+			10:leaf=-0.177964,cover=1653.55
+		6:[card_last<0.5] yes=11,no=12,missing=11,gain=46.6101,cover=10277.7
+			11:leaf=-0.155369,cover=8833.5
+			12:leaf=-0.175254,cover=1444.24
+booster[2]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=132.013,cover=46307.8
+	1:[event_loc_b<5.5] yes=3,no=4,missing=3,gain=8.34846,cover=23516.6
+		3:[uniq_poi_n<10.5] yes=7,no=8,missing=7,gain=1.17915,cover=18060.2
+			7:leaf=-0.163592,cover=18058
+			8:leaf=-0.0534781,cover=2.17889
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=1.46019,cover=5456.34
+			9:leaf=-0.159577,cover=4624.55
+			10:leaf=-0.152075,cover=831.792
+	2:[event_card_d<6.5] yes=5,no=6,missing=5,gain=68.8413,cover=22791.2
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=6.21491,cover=11021.3
+			11:leaf=-0.155521,cover=7680.24
+			12:leaf=-0.16163,cover=3341.03
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=47.6222,cover=11770
+			13:leaf=-0.143554,cover=10102.4
+			14:leaf=-0.162194,cover=1667.54
+booster[3]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=126.647,cover=44769.3
+	1:[active_weeks<10.5] yes=3,no=4,missing=3,gain=8.64062,cover=22686
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=1.11233,cover=16512.5
+			7:leaf=-0.152051,cover=10665.8
+			8:leaf=-0.155076,cover=5846.65
+		4:[event_amt_r_b<0.510102] yes=9,no=10,missing=9,gain=1.73228,cover=6173.55
+			9:leaf=-0.149387,cover=5012.72
+			10:leaf=-0.142934,cover=1160.83
+	2:[event_card_d<7.5] yes=5,no=6,missing=5,gain=65.6317,cover=22083.3
+		5:[uniq_poi<1.5] yes=11,no=12,missing=11,gain=7.38694,cover=11256.7
+			11:leaf=-0.149931,cover=4667.27
+			12:leaf=-0.144025,cover=6589.42
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=43.7576,cover=10826.6
+			13:leaf=-0.132784,cover=9308.16
+			14:leaf=-0.151466,cover=1518.48
+booster[4]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=125.787,cover=42930.6
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=8.83405,cover=21693.7
+		3:[events_weekday_3<6.5] yes=7,no=8,missing=7,gain=3.27473,cover=11176.6
+			7:leaf=-0.142104,cover=8915.37
+			8:leaf=-0.136703,cover=2261.21
+		4:[event_channel_b<15.5] yes=9,no=10,missing=9,gain=0.316938,cover=10517.1
+			9:leaf=-0.145515,cover=10515.8
+			10:leaf=-0.0435077,cover=1.33919
+	2:[event_card_d<4.5] yes=5,no=6,missing=5,gain=64.5794,cover=21237
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=4.93015,cover=8889.24
+			11:leaf=-0.137404,cover=6973.02
+			12:leaf=-0.144157,cover=1916.21
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=48.0549,cover=12347.7
+			13:leaf=-0.124983,cover=10625.2
+			14:leaf=-0.143286,cover=1722.57
+booster[5]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=127.9,cover=40908.2
+	1:[event_amt_b<6.5] yes=3,no=4,missing=3,gain=9.39582,cover=20602.4
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=2.51731,cover=16985.6
+			7:leaf=-0.136065,cover=11696.6
+			8:leaf=-0.13954,cover=5289.02
+		4:[event_mc_-<158.5] yes=9,no=10,missing=9,gain=2.60045,cover=3616.76
+			9:leaf=-0.131065,cover=3615.48
+			10:leaf=0.00658735,cover=1.27951
+	2:[event_card_d<12.5] yes=5,no=6,missing=5,gain=66.0593,cover=20305.9
+		5:[uniq_poi<2.5] yes=11,no=12,missing=11,gain=14.3252,cover=12469.6
+			11:leaf=-0.13288,cover=6387.22
+			12:leaf=-0.125714,cover=6082.36
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=37.628,cover=7836.31
+			13:leaf=-0.114721,cover=6766.98
+			14:leaf=-0.135266,cover=1069.33
+booster[6]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=132.095,cover=38789
+	1:[event_loc_b<5.5] yes=3,no=4,missing=3,gain=10.0664,cover=19458.9
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=2.05289,cover=14917.6
+			7:leaf=-0.130287,cover=9964.58
+			8:leaf=-0.133667,cover=4953.06
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=2.74991,cover=4541.28
+			9:leaf=-0.126892,cover=3846.56
+			10:leaf=-0.118322,cover=694.712
+	2:[event_card_d<9.5] yes=5,no=6,missing=5,gain=66.9333,cover=19330.1
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=12.4501,cover=10680.1
+			11:leaf=-0.122286,cover=9329.46
+			12:leaf=-0.133167,cover=1350.66
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=41.4026,cover=8649.98
+			13:leaf=-0.10893,cover=7482.17
+			14:leaf=-0.12947,cover=1167.81
+booster[7]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=137.786,cover=36637.6
+	1:[uniq_poi<4.5] yes=3,no=4,missing=3,gain=10.9547,cover=18298.3
+		3:[event_loc_a<49] yes=7,no=8,missing=7,gain=4.27098,cover=12897.5
+			7:leaf=-0.126607,cover=12895.6
+			8:leaf=0.015826,cover=1.89568
+		4:[event_loc_c<62.5] yes=9,no=10,missing=9,gain=3.43909,cover=5400.76
+			9:leaf=-0.120969,cover=5390.16
+			10:leaf=-0.0559086,cover=10.5995
+	2:[event_card_d<4.5] yes=5,no=6,missing=5,gain=68.8772,cover=18339.3
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=6.11696,cover=7584.18
+			11:leaf=-0.118263,cover=5954.27
+			12:leaf=-0.125944,cover=1629.92
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=51.5585,cover=10755.1
+			13:leaf=-0.104591,cover=9298.61
+			14:leaf=-0.125044,cover=1456.52
+booster[8]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=144.564,cover=34501.4
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=11.8735,cover=17145.9
+		3:[event_amt_b<13.5] yes=7,no=8,missing=7,gain=5.12323,cover=8877.57
+			7:leaf=-0.118868,cover=7432.18
+			8:leaf=-0.111536,cover=1445.39
+		4:[event_channel_b<15.5] yes=9,no=10,missing=9,gain=0.609069,cover=8268.33
+			9:leaf=-0.123276,cover=8267.21
+			10:leaf=-0.0230321,cover=1.11899
+	2:[event_card_d<7.5] yes=5,no=6,missing=5,gain=71.7175,cover=17355.5
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=10.4327,cover=8693.54
+			11:leaf=-0.112449,cover=7620.17
+			12:leaf=-0.12361,cover=1073.37
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=47.7527,cover=8661.96
+			13:leaf=-0.0979345,cover=7512.03
+			14:leaf=-0.12004,cover=1149.93
+booster[9]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=152.133,cover=32414.7
+	1:[event_card_d<4.5] yes=3,no=4,missing=3,gain=12.7724,cover=16020.3
+		3:[idle_days<88.5] yes=7,no=8,missing=8,gain=1.93264,cover=10505.4
+			7:leaf=-0.11703,cover=6199.07
+			8:leaf=-0.120654,cover=4306.31
+		4:[event_amt_b<22.5] yes=9,no=10,missing=9,gain=4.33344,cover=5514.93
+			9:leaf=-0.113371,cover=4914.73
+			10:leaf=-0.103152,cover=600.198
+	2:[uniq_poi<5.5] yes=5,no=6,missing=5,gain=73.9193,cover=16394.4
+		5:[uniq_poi<2.5] yes=11,no=12,missing=11,gain=14.0067,cover=8680.17
+			11:leaf=-0.112455,cover=5140.15
+			12:leaf=-0.103942,cover=3540.02
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=71.6224,cover=7714.25
+			13:leaf=-0.0909236,cover=6341.72
+			14:leaf=-0.11627,cover=1372.52
+booster[10]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=160.235,cover=30401.8
+	1:[event_loc_b<5.5] yes=3,no=4,missing=3,gain=13.8042,cover=14934.6
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=3.63804,cover=11412.8
+			7:leaf=-0.113073,cover=7650.05
+			8:leaf=-0.117503,cover=3762.74
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=4.25574,cover=3521.77
+			9:leaf=-0.108701,cover=2979.54
+			10:leaf=-0.0978585,cover=542.229
+	2:[event_card_d<7.5] yes=5,no=6,missing=5,gain=76.1054,cover=15467.3
+		5:[uniq_poi<1.5] yes=11,no=12,missing=11,gain=12.0167,cover=7665.83
+			11:leaf=-0.11027,cover=3149.05
+			12:leaf=-0.10186,cover=4516.78
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=50.9782,cover=7801.44
+			13:leaf=-0.0880686,cover=6798.51
+			14:leaf=-0.112405,cover=1002.93
+booster[11]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=168.657,cover=28479
+	1:[active_weeks<10.5] yes=3,no=4,missing=3,gain=15.0776,cover=13897.4
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=3.54855,cover=10043.7
+			7:leaf=-0.110007,cover=6529.85
+			8:leaf=-0.114587,cover=3513.81
+		4:[event_amt_r_b<0.510102] yes=9,no=10,missing=9,gain=4.68402,cover=3853.74
+			9:leaf=-0.105826,cover=3119.96
+			10:leaf=-0.0959804,cover=733.776
+	2:[event_card_d<14.5] yes=5,no=6,missing=5,gain=78.636,cover=14581.6
+		5:[uniq_poi<2.5] yes=11,no=12,missing=11,gain=22.9047,cover=9272.94
+			11:leaf=-0.104922,cover=4449.53
+			12:leaf=-0.0947614,cover=4823.41
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=43.8741,cover=5308.71
+			13:leaf=-0.0808362,cover=4650.58
+			14:leaf=-0.108626,cover=658.123
+booster[12]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=177.222,cover=26656.9
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=16.3205,cover=12914.3
+		3:[event_amt_b<9.5] yes=7,no=8,missing=7,gain=7.07802,cover=6743.31
+			7:leaf=-0.104909,cover=5106.1
+			8:leaf=-0.0968092,cover=1637.2
+		4:[event_loc_angle_std<0.0244668] yes=9,no=10,missing=10,gain=1.01151,cover=6171.03
+			9:leaf=-0.107148,cover=1645.24
+			10:leaf=-0.111445,cover=4525.79
+	2:[event_card_d<4.5] yes=5,no=6,missing=5,gain=81.3279,cover=13742.6
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=9.20215,cover=5507.44
+			11:leaf=-0.0973105,cover=4332.29
+			12:leaf=-0.107808,cover=1175.15
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=61.9599,cover=8235.15
+			13:leaf=-0.0804741,cover=7198.96
+			14:leaf=-0.106764,cover=1036.19
+booster[13]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=185.662,cover=24941
+	1:[uniq_poi<4.5] yes=3,no=4,missing=3,gain=17.5819,cover=11988.5
+		3:[event_loc_a<49] yes=7,no=8,missing=7,gain=5.10713,cover=8380.89
+			7:leaf=-0.106265,cover=8379.49
+			8:leaf=0.0549999,cover=1.39829
+		4:[event_loc_b<16.5] yes=9,no=10,missing=9,gain=5.90794,cover=3607.64
+			9:leaf=-0.100109,cover=2713.23
+			10:leaf=-0.0900141,cover=894.415
+	2:[event_card_d<9.5] yes=5,no=6,missing=5,gain=83.2723,cover=12952.5
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=19.2595,cover=6926.32
+			11:leaf=-0.0918094,cover=6071.11
+			12:leaf=-0.108192,cover=855.21
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=50.9319,cover=6026.15
+			13:leaf=-0.0742729,cover=5303.13
+			14:leaf=-0.102715,cover=723.021
+booster[14]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=193.777,cover=23333.7
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=19.1162,cover=11121.2
+		3:[events_weekday_3<6.5] yes=7,no=8,missing=7,gain=8.19469,cover=5837.53
+			7:leaf=-0.0989187,cover=4629.79
+			8:leaf=-0.0891571,cover=1207.74
+		4:[event_loc_angle_std<0.0244668] yes=9,no=10,missing=10,gain=1.45188,cover=5283.66
+			9:leaf=-0.10177,cover=1412.55
+			10:leaf=-0.106745,cover=3871.11
+	2:[event_card_d<4.5] yes=5,no=6,missing=5,gain=86.04,cover=12212.5
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=10.5616,cover=4818.04
+			11:leaf=-0.0895851,cover=3168.09
+			12:leaf=-0.0998459,cover=1649.94
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=64.5521,cover=7394.47
+			13:leaf=-0.0723898,cover=6501.83
+			14:leaf=-0.101181,cover=892.646
+booster[15]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=201.383,cover=21834.9
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=20.3744,cover=10312.4
+		3:[event_amt_b<11.5] yes=7,no=8,missing=7,gain=8.67239,cover=5432.95
+			7:leaf=-0.0961856,cover=4329.26
+			8:leaf=-0.085765,cover=1103.69
+		4:[event_loc_angle_diff<0.0799697] yes=9,no=10,missing=10,gain=1.67382,cover=4879.42
+			9:leaf=-0.101075,cover=2732.73
+			10:leaf=-0.105847,cover=2146.69
+	2:[uniq_poi<5.5] yes=5,no=6,missing=5,gain=88.3093,cover=11522.6
+		5:[uniq_poi<1.5] yes=11,no=12,missing=11,gain=19.1795,cover=5927.92
+			11:leaf=-0.0949886,cover=2276.87
+			12:leaf=-0.0830642,cover=3651.06
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=84.4427,cover=5594.64
+			13:leaf=-0.0646943,cover=4700.29
+			14:leaf=-0.098299,cover=894.345
+booster[16]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=208.244,cover=20442.4
+	1:[uniq_poi<2.5] yes=3,no=4,missing=3,gain=21.7571,cover=9560.84
+		3:[event_channel_b<28.5] yes=7,no=8,missing=7,gain=4.77149,cover=5071.18
+			7:leaf=-0.100549,cover=5069.66
+			8:leaf=0.0509673,cover=1.51952
+		4:[events_weekday_3<6.5] yes=9,no=10,missing=9,gain=8.55848,cover=4489.66
+			9:leaf=-0.0931961,cover=3468.43
+			10:leaf=-0.0822958,cover=1021.22
+	2:[event_card_d<4.5] yes=5,no=6,missing=5,gain=87.92,cover=10881.6
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=12.2333,cover=4211.48
+			11:leaf=-0.0841023,cover=3321.08
+			12:leaf=-0.0976974,cover=890.395
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=66.184,cover=6670.11
+			13:leaf=-0.0648657,cover=5900.98
+			14:leaf=-0.0961451,cover=769.139
+booster[17]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=214.224,cover=19153.1
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=23.3446,cover=8864.75
+		3:[event_loc_b<16.5] yes=7,no=8,missing=7,gain=9.83222,cover=4703.52
+			7:leaf=-0.0906066,cover=3959.17
+			8:leaf=-0.0775973,cover=744.354
+		4:[event_loc_angle_std<0.0451913] yes=9,no=10,missing=10,gain=2.19419,cover=4161.22
+			9:leaf=-0.0946602,cover=1193.66
+			10:leaf=-0.100765,cover=2967.57
+	2:[uniq_poi<2.5] yes=5,no=6,missing=5,gain=89.7953,cover=10288.4
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=10.0622,cover=3013.7
+			11:leaf=-0.0833834,cover=2284.99
+			12:leaf=-0.0973666,cover=728.705
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=97.0241,cover=7274.66
+			13:leaf=-0.061564,cover=6268.75
+			14:leaf=-0.095081,cover=1005.91
+booster[18]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=219.142,cover=17962.7
+	1:[event_loc_b<4.5] yes=3,no=4,missing=3,gain=24.7271,cover=8221.9
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=7.38068,cover=5907.77
+			7:leaf=-0.0918935,cover=3920.89
+			8:leaf=-0.0998135,cover=1986.88
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=7.58573,cover=2314.13
+			9:leaf=-0.0846841,cover=1960.05
+			10:leaf=-0.0681079,cover=354.078
+	2:[uniq_poi<5.5] yes=5,no=6,missing=5,gain=91.513,cover=9740.83
+		5:[uniq_poi<1.5] yes=11,no=12,missing=11,gain=20.5492,cover=4919.08
+			11:leaf=-0.0869346,cover=1850.98
+			12:leaf=-0.0733977,cover=3068.1
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=84.3256,cover=4821.75
+			13:leaf=-0.0535338,cover=4107.63
+			14:leaf=-0.0908186,cover=714.118
+booster[19]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=222.766,cover=16865.9
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=26.3296,cover=7629.63
+		3:[event_amt_b<9.5] yes=7,no=8,missing=7,gain=11.1809,cover=4081.98
+			7:leaf=-0.0862428,cover=3058.98
+			8:leaf=-0.0738034,cover=1023
+		4:[event_loc_angle_diff<0.0799697] yes=9,no=10,missing=10,gain=2.73281,cover=3547.65
+			9:leaf=-0.0922439,cover=1994.74
+			10:leaf=-0.098696,cover=1552.91
+	2:[event_card_d<14.5] yes=5,no=6,missing=5,gain=90.6043,cover=9236.3
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=32.0098,cover=5663.34
+			11:leaf=-0.0707073,cover=5004.57
+			12:leaf=-0.0943372,cover=658.774
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=46.4687,cover=3572.96
+			13:leaf=-0.0492308,cover=3210.97
+			14:leaf=-0.0870922,cover=361.988
+booster[20]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=225.142,cover=15858.2
+	1:[event_card_d<4.5] yes=3,no=4,missing=3,gain=27.7535,cover=7084.99
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=6.42479,cover=4531.64
+			7:leaf=-0.0879759,cover=2843.58
+			8:leaf=-0.0962494,cover=1688.06
+		4:[events_weekday_3<6.5] yes=9,no=10,missing=9,gain=9.4705,cover=2553.35
+			9:leaf=-0.0817753,cover=1833.83
+			10:leaf=-0.0678192,cover=719.52
+	2:[active_days<9.5] yes=5,no=6,missing=5,gain=91.8419,cover=8773.2
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=14.422,cover=3211.66
+			11:leaf=-0.0708285,cover=2101.1
+			12:leaf=-0.0851902,cover=1110.56
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=93.5546,cover=5561.53
+			13:leaf=-0.0493926,cover=4810.22
+			14:leaf=-0.0873739,cover=751.316
+booster[21]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=225.942,cover=14933.2
+	1:[uniq_poi<2.5] yes=3,no=4,missing=3,gain=29.0817,cover=6585.12
+		3:[event_channel_b<28.5] yes=7,no=8,missing=7,gain=5.23779,cover=3423.75
+			7:leaf=-0.0904628,cover=3422.53
+			8:leaf=0.0746984,cover=1.22096
+		4:[events_weekday_3<6.5] yes=9,no=10,missing=9,gain=10.8154,cover=3161.36
+			9:leaf=-0.0802219,cover=2420.49
+			10:leaf=-0.0660492,cover=740.875
+	2:[uniq_poi<2.5] yes=5,no=6,missing=5,gain=91.2259,cover=8348.07
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=12.8941,cover=2337.33
+			11:leaf=-0.0716293,cover=1778.46
+			12:leaf=-0.0894139,cover=558.873
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=94.4783,cover=6010.74
+			13:leaf=-0.0478461,cover=5261.35
+			14:leaf=-0.0858304,cover=749.39
+booster[22]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=225.18,cover=14085.9
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=30.6495,cover=6126.98
+		3:[event_loc_b<16.5] yes=7,no=8,missing=7,gain=12.2979,cover=3324.65
+			7:leaf=-0.0776664,cover=2779.77
+			8:leaf=-0.0608791,cover=544.884
+		4:[event_loc_angle_diff<0.0799697] yes=9,no=10,missing=10,gain=3.70952,cover=2802.32
+			9:leaf=-0.0857262,cover=1580.84
+			10:leaf=-0.0938102,cover=1221.48
+	2:[uniq_poi<6.5] yes=5,no=6,missing=5,gain=90.284,cover=7958.93
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=26.2992,cover=4402.05
+			11:leaf=-0.0633019,cover=4064.47
+			12:leaf=-0.0925455,cover=337.58
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=71.4015,cover=3556.87
+			13:leaf=-0.0384718,cover=3074.37
+			14:leaf=-0.0798672,cover=482.502
+booster[23]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=222.883,cover=13311.1
+	1:[event_loc_b<4.5] yes=3,no=4,missing=3,gain=31.703,cover=5707.87
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=10.2353,cover=4048.68
+			7:leaf=-0.0802147,cover=2723.93
+			8:leaf=-0.0912893,cover=1324.75
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=10.161,cover=1659.19
+			9:leaf=-0.0706872,cover=1400.93
+			10:leaf=-0.0486625,cover=258.256
+	2:[uniq_poi<2.5] yes=5,no=6,missing=5,gain=88.6491,cover=7603.19
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=13.9022,cover=2076.13
+			11:leaf=-0.0658545,cover=1585.58
+			12:leaf=-0.0854425,cover=490.554
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=88.776,cover=5527.05
+			13:leaf=-0.0416184,cover=4879.27
+			14:leaf=-0.081039,cover=647.786
+booster[24]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=218.976,cover=12603.2
+	1:[idle_days_rate<0.213579] yes=3,no=4,missing=4,gain=32.9714,cover=5324.9
+		3:[event_amt_r_b<0.510102] yes=7,no=8,missing=7,gain=13.8168,cover=2949.89
+			7:leaf=-0.0725011,cover=2462.91
+			8:leaf=-0.0537649,cover=486.982
+		4:[event_center_dist_min<0.149315] yes=9,no=10,missing=9,gain=3.92009,cover=2375.01
+			9:leaf=-0.0897205,cover=1203.9
+			10:leaf=-0.0808748,cover=1171.1
+	2:[active_days<9.5] yes=5,no=6,missing=5,gain=86.7407,cover=7278.28
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=15.9698,cover=2561.68
+			11:leaf=-0.0589414,cover=1695.6
+			12:leaf=-0.075841,cover=866.074
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=81.9674,cover=4716.6
+			13:leaf=-0.0369268,cover=4154.04
+			14:leaf=-0.0776116,cover=562.558
+booster[25]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=213.542,cover=11957.2
+	1:[uniq_poi<2.5] yes=3,no=4,missing=3,gain=34.1297,cover=4975.31
+		3:[idle_days<88.5] yes=7,no=8,missing=8,gain=5.63557,cover=2533.31
+			7:leaf=-0.0775498,cover=1361.66
+			8:leaf=-0.0875565,cover=1171.65
+		4:[events_weekday_3<6.5] yes=9,no=10,missing=9,gain=12.7959,cover=2442
+			9:leaf=-0.069616,cover=1857.49
+			10:leaf=-0.0523814,cover=584.503
+	2:[uniq_poi<7.5] yes=5,no=6,missing=5,gain=82.726,cover=6981.85
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=34.7385,cover=4171.89
+			11:leaf=-0.053213,cover=3859.54
+			12:leaf=-0.0879888,cover=312.351
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=52.6601,cover=2809.96
+			13:leaf=-0.0284004,cover=2456.59
+			14:leaf=-0.0696795,cover=353.365
+booster[26]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=206.747,cover=11368.6
+	1:[event_loc_b<5.5] yes=3,no=4,missing=3,gain=34.5945,cover=4656.46
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=12.4293,cover=3446
+			7:leaf=-0.0724982,cover=2396.68
+			8:leaf=-0.0858476,cover=1049.32
+		4:[wealth_months<4.5] yes=9,no=10,missing=9,gain=12.4718,cover=1210.46
+			9:leaf=-0.061277,cover=1014.33
+			10:leaf=-0.0334376,cover=196.13
+	2:[uniq_poi<2.5] yes=5,no=6,missing=5,gain=81.4313,cover=6712.1
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=15.6278,cover=1762.51
+			11:leaf=-0.0571931,cover=1352.06
+			12:leaf=-0.0797251,cover=410.449
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=77.5676,cover=4949.58
+			13:leaf=-0.0330918,cover=4422.48
+			14:leaf=-0.0736763,cover=527.107
+booster[27]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=198.602,cover=10832.4
+	1:[uniq_poi<4.5] yes=3,no=4,missing=3,gain=35.4759,cover=4365.98
+		3:[event_channel_b<2.5] yes=7,no=8,missing=7,gain=12.294,cover=2927.13
+			7:leaf=-0.0786017,cover=2305.82
+			8:leaf=-0.0624035,cover=621.304
+		4:[event_loc_b<16.5] yes=9,no=10,missing=9,gain=10.8451,cover=1438.85
+			9:leaf=-0.0611587,cover=1055.2
+			10:leaf=-0.0412665,cover=383.651
+	2:[active_days<8.5] yes=5,no=6,missing=5,gain=77.7481,cover=6466.38
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=14.8525,cover=2056.85
+			11:leaf=-0.0508735,cover=1325.64
+			12:leaf=-0.068811,cover=731.21
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=69.5958,cover=4409.52
+			13:leaf=-0.0293611,cover=3939.31
+			14:leaf=-0.0700583,cover=470.218
+booster[28]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=189.325,cover=10344.4
+	1:[idle_days_rate<0.205049] yes=3,no=4,missing=4,gain=36.151,cover=4101.54
+		3:[event_amt_r_b<0.510102] yes=7,no=8,missing=7,gain=14.7778,cover=2305.4
+			7:leaf=-0.0614676,cover=1914.97
+			8:leaf=-0.039905,cover=390.432
+		4:[event_loc_angle_diff<0.0799697] yes=9,no=10,missing=10,gain=5.83596,cover=1796.14
+			9:leaf=-0.0716314,cover=1023.82
+			10:leaf=-0.0837066,cover=772.32
+	2:[uniq_poi<5.5] yes=5,no=6,missing=5,gain=72.7549,cover=6242.84
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=22.879,cover=2930.66
+			11:leaf=-0.0455093,cover=2339.1
+			12:leaf=-0.0676263,cover=591.556
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=53.3448,cover=3312.18
+			13:leaf=-0.0239379,cover=2957.99
+			14:leaf=-0.0649827,cover=354.19
+booster[29]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=179.122,cover=9900.86
+	1:[uniq_poi<2.5] yes=3,no=4,missing=3,gain=36.5458,cover=3861.02
+		3:[event_center_angle_med<-1.43932] yes=7,no=8,missing=8,gain=6.756,cover=1914.48
+			7:leaf=-0.0616572,cover=418.794
+			8:leaf=-0.0765727,cover=1495.68
+		4:[events_weekday_3<6.5] yes=9,no=10,missing=9,gain=13.6603,cover=1946.54
+			9:leaf=-0.0585887,cover=1468.17
+			10:leaf=-0.0389434,cover=478.373
+	2:[uniq_poi<2.5] yes=5,no=6,missing=5,gain=68.9597,cover=6039.84
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=15.6709,cover=1517.9
+			11:leaf=-0.0487857,cover=1175.86
+			12:leaf=-0.0733029,cover=342.043
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=64.9583,cover=4521.93
+			13:leaf=-0.0257653,cover=4083.45
+			14:leaf=-0.0662537,cover=438.487
+booster[30]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=168.16,cover=9497.81
+	1:[idle_days_rate<0.213579] yes=3,no=4,missing=4,gain=36.2573,cover=3642.35
+		3:[event_amt_r_b<0.510102] yes=7,no=8,missing=7,gain=15.2712,cover=2095.05
+			7:leaf=-0.0560613,cover=1733.8
+			8:leaf=-0.0332871,cover=361.251
+		4:[event_center_dist_min<0.149315] yes=9,no=10,missing=9,gain=5.74651,cover=1547.3
+			9:leaf=-0.0787552,cover=772.757
+			10:leaf=-0.0660312,cover=774.541
+	2:[uniq_poi<7.5] yes=5,no=6,missing=5,gain=65.5234,cover=5855.46
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=34.7456,cover=3403.53
+			11:leaf=-0.0396368,cover=3172.66
+			12:leaf=-0.0798401,cover=230.868
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=35.6234,cover=2451.93
+			13:leaf=-0.0190698,cover=2396.35
+			14:leaf=-0.0993981,cover=55.5799
+booster[31]:
+0:[uniq_poi<2.5] yes=1,no=2,missing=1,gain=160.16,cover=9132.57
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=28.0978,cover=3072.01
+		3:[idle_days<88.5] yes=7,no=8,missing=8,gain=7.17986,cover=1679.57
+			7:leaf=-0.0624257,cover=925.305
+			8:leaf=-0.0759853,cover=754.268
+		4:[age_cat<2.5] yes=9,no=10,missing=9,gain=15.808,cover=1392.44
+			9:leaf=-0.0434665,cover=1084.13
+			10:leaf=-0.0692895,cover=308.304
+	2:[wealth_last<0.5] yes=5,no=6,missing=5,gain=67.7162,cover=6060.56
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=53.4374,cover=4769.39
+			11:leaf=-0.0341246,cover=4384.74
+			12:leaf=-0.0730015,cover=384.648
+		6:[gender_m<0.5] yes=13,no=14,missing=13,gain=29.9451,cover=1291.16
+			13:leaf=0.00061903,cover=793.49
+			14:leaf=-0.0306512,cover=497.675
+booster[32]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=153.984,cover=8802.52
+	1:[event_loc_b<4.5] yes=3,no=4,missing=3,gain=34.9732,cover=3288.06
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=12.3004,cover=2248.95
+			7:leaf=-0.057777,cover=1571.62
+			8:leaf=-0.0741433,cover=677.324
+		4:[card_last<0.5] yes=9,no=10,missing=9,gain=12.9794,cover=1039.11
+			9:leaf=-0.0371422,cover=958.185
+			10:leaf=-0.0788698,cover=80.9298
+	2:[active_days<9.5] yes=5,no=6,missing=5,gain=60.0881,cover=5514.46
+		5:[idle_days<98.5] yes=11,no=12,missing=12,gain=17.1142,cover=1788.05
+			11:leaf=-0.0366092,cover=1210.09
+			12:leaf=-0.0576265,cover=577.966
+		6:[card_last<0.5] yes=13,no=14,missing=13,gain=50.5394,cover=3726.41
+			13:leaf=-0.0173714,cover=3378.23
+			14:leaf=-0.057351,cover=348.173
+booster[33]:
+0:[uniq_poi<4.5] yes=1,no=2,missing=1,gain=141.617,cover=8501.12
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=49.1602,cover=4099.06
+		3:[event_channel_b<2.5] yes=7,no=8,missing=7,gain=14.5489,cover=2024.21
+			7:leaf=-0.065068,cover=1576.88
+			8:leaf=-0.0443991,cover=447.335
+		4:[age_cat<2.5] yes=9,no=10,missing=9,gain=20.0674,cover=2074.85
+			9:leaf=-0.0336382,cover=1662.97
+			10:leaf=-0.0583594,cover=411.872
+	2:[wealth_last<0.5] yes=5,no=6,missing=5,gain=51.4854,cover=4402.06
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=39.8629,cover=3378.12
+			11:leaf=-0.0262853,cover=3102.75
+			12:leaf=-0.0659621,cover=275.37
+		6:[gender_m<0.5] yes=13,no=14,missing=13,gain=22.3308,cover=1023.94
+			13:leaf=0.00736021,cover=645.888
+			14:leaf=-0.0232075,cover=378.054
+booster[34]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=134.273,cover=8229.2
+	1:[active_range_days<161.5] yes=3,no=4,missing=3,gain=31.6213,cover=2986.17
+		3:[event_channel_b<2.5] yes=7,no=8,missing=7,gain=14.682,cover=2102.62
+			7:leaf=-0.0616173,cover=1647.89
+			8:leaf=-0.0411144,cover=454.73
+		4:[event_amt_r_b<0.510102] yes=9,no=10,missing=9,gain=17.5188,cover=883.549
+			9:leaf=-0.0416541,cover=705.148
+			10:leaf=-0.00654067,cover=178.401
+	2:[event_channel_b<1.5] yes=5,no=6,missing=5,gain=54.1219,cover=5243.03
+		5:[uniq_poi<8.5] yes=11,no=12,missing=11,gain=27.2034,cover=3215.35
+			11:leaf=-0.0388854,cover=2065.03
+			12:leaf=-0.0196673,cover=1150.32
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=54.9326,cover=2027.67
+			13:leaf=-0.00807979,cover=1960.65
+			14:leaf=-0.0994995,cover=67.0225
+booster[35]:
+0:[uniq_poi<2.5] yes=1,no=2,missing=1,gain=125.48,cover=7982.95
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=22.4291,cover=2531.65
+		3:[event_center_angle_med<-1.43932] yes=7,no=8,missing=8,gain=8.66062,cover=1328.93
+			7:leaf=-0.0432992,cover=297.986
+			8:leaf=-0.0630072,cover=1030.95
+		4:[age_cat<2.5] yes=9,no=10,missing=9,gain=15.4416,cover=1202.71
+			9:leaf=-0.0337088,cover=945.861
+			10:leaf=-0.0614523,cover=256.851
+	2:[card_last<0.5] yes=5,no=6,missing=5,gain=55.333,cover=5451.3
+		5:[event_channel_b<1.5] yes=11,no=12,missing=11,gain=60.7706,cover=5028.5
+			11:leaf=-0.0287536,cover=3013.56
+			12:leaf=-0.00631783,cover=2014.94
+		6:[card_months<5.5] yes=13,no=14,missing=13,gain=15.5033,cover=422.799
+			13:leaf=-0.100342,cover=70.0758
+			14:leaf=-0.0486203,cover=352.723
+booster[36]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=117.897,cover=7760.36
+	1:[event_loc_b<4.5] yes=3,no=4,missing=3,gain=29.2258,cover=2746.34
+		3:[event_loc_dist_mean<0.385643] yes=7,no=8,missing=8,gain=12.2374,cover=1835.05
+			7:leaf=-0.0480428,cover=1363.64
+			8:leaf=-0.0669292,cover=471.41
+		4:[event_loc_angle_std<0.00928522] yes=9,no=10,missing=10,gain=12.5228,cover=911.288
+			9:leaf=-0.0465618,cover=328.564
+			10:leaf=-0.0220861,cover=582.724
+	2:[event_mc_r_a<0.0604235] yes=5,no=6,missing=5,gain=50.1985,cover=5014.02
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=17.3671,cover=1500.94
+			11:leaf=-0.0301349,cover=1234.94
+			12:leaf=-0.0583589,cover=266.003
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=42.4964,cover=3513.07
+			13:leaf=-0.0119193,cover=3458.12
+			14:leaf=-0.0997901,cover=54.9516
+booster[37]:
+0:[events<17.5] yes=1,no=2,missing=1,gain=108.508,cover=7557.79
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=40.5859,cover=3959.82
+		3:[idle_days<98.5] yes=7,no=8,missing=8,gain=13.5777,cover=1801.69
+			7:leaf=-0.0438437,cover=1292.85
+			8:leaf=-0.0632838,cover=508.84
+		4:[card_last<0.5] yes=9,no=10,missing=9,gain=22.8193,cover=2158.13
+			9:leaf=-0.0265171,cover=2041.26
+			10:leaf=-0.0718524,cover=116.868
+	2:[event_channel_b<1.5] yes=5,no=6,missing=5,gain=43.9879,cover=3597.97
+		5:[event_mc_r_d<0.118146] yes=11,no=12,missing=11,gain=16.9537,cover=2094.18
+			11:leaf=-0.0245727,cover=2072.81
+			12:leaf=0.0631081,cover=21.3637
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=44.5673,cover=1503.8
+			13:leaf=0.00186496,cover=1457.55
+			14:leaf=-0.0968225,cover=46.243
+booster[38]:
+0:[event_card_d<4.5] yes=1,no=2,missing=1,gain=98.7805,cover=7375.19
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=28.7797,cover=2959.08
+		3:[events_weekday_r_6<0.177218] yes=7,no=8,missing=8,gain=11.3333,cover=1457.66
+			7:leaf=-0.0440953,cover=1124.43
+			8:leaf=-0.0652871,cover=333.231
+		4:[event_loc_angle_med<2.46967] yes=9,no=10,missing=9,gain=17.6167,cover=1501.42
+			9:leaf=-0.0299894,cover=1494.31
+			10:leaf=0.118184,cover=7.10637
+	2:[event_channel_b<1.5] yes=5,no=6,missing=5,gain=54.3663,cover=4416.11
+		5:[event_mc_r_d<0.00727282] yes=11,no=12,missing=11,gain=18.4739,cover=2686.36
+			11:leaf=-0.0288238,cover=2059.17
+			12:leaf=-0.00920309,cover=627.195
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=38.9223,cover=1729.75
+			13:leaf=0.000864501,cover=1688.12
+			14:leaf=-0.0958851,cover=41.6312
+booster[39]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=91.2787,cover=7209.86
+	1:[event_loc_dist_q5<0.180282] yes=3,no=4,missing=4,gain=25.7943,cover=2455.87
+		3:[events_weekday_3<6.5] yes=7,no=8,missing=7,gain=24.1303,cover=1889.94
+			7:leaf=-0.0378276,cover=1589.26
+			8:leaf=-0.00691061,cover=300.684
+		4:[event_channel_b<10.5] yes=9,no=10,missing=9,gain=8.40578,cover=565.932
+			9:leaf=-0.058168,cover=563.51
+			10:leaf=0.102087,cover=2.42129
+	2:[wealth_last<0.5] yes=5,no=6,missing=5,gain=48.2548,cover=4753.99
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=36.9464,cover=3662.13
+			11:leaf=-0.0175306,cover=3403.38
+			12:leaf=-0.0566792,cover=258.751
+		6:[age_cat_b<0.5] yes=13,no=14,missing=13,gain=35.989,cover=1091.86
+			13:leaf=-0.0195922,cover=413.409
+			14:leaf=0.0177999,cover=678.45
+booster[40]:
+0:[idle_days<30.5] yes=1,no=2,missing=2,gain=86.6406,cover=7059.97
+	1:[card_last<0.5] yes=3,no=4,missing=3,gain=50.6911,cover=5262.58
+		3:[wealth_last<0.5] yes=7,no=8,missing=7,gain=44.5874,cover=4891.72
+			7:leaf=-0.0170381,cover=3794.97
+			8:leaf=0.00584853,cover=1096.74
+		4:[card_months<5.5] yes=9,no=10,missing=9,gain=14.5862,cover=370.863
+			9:leaf=-0.0985527,cover=53.0007
+			10:leaf=-0.0418692,cover=317.863
+	2:[idle_days<98.5] yes=5,no=6,missing=6,gain=15.2177,cover=1797.39
+		5:[inc_cat<1.5] yes=11,no=12,missing=11,gain=10.0875,cover=914.012
+			11:leaf=-0.0517877,cover=185.02
+			12:leaf=-0.0255787,cover=728.993
+		6:[gender_m<0.5] yes=13,no=14,missing=13,gain=11.4006,cover=883.375
+			13:leaf=-0.0605447,cover=453.199
+			14:leaf=-0.0376004,cover=430.176
+booster[41]:
+0:[event_mc_r_a<0.0343354] yes=1,no=2,missing=1,gain=80.8725,cover=6924.98
+	1:[idle_days<98.5] yes=3,no=4,missing=4,gain=20.8131,cover=2359.78
+		3:[inc_cat<1.5] yes=7,no=8,missing=7,gain=15.0272,cover=1594.11
+			7:leaf=-0.0458225,cover=361.136
+			8:leaf=-0.0225951,cover=1232.98
+		4:[gender_m<0.5] yes=9,no=10,missing=9,gain=8.88113,cover=765.666
+			9:leaf=-0.0587801,cover=384.248
+			10:leaf=-0.0369913,cover=381.418
+	2:[event_channel_b<3.5] yes=5,no=6,missing=5,gain=47.2574,cover=4565.2
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=28.4159,cover=3799.11
+			11:leaf=-0.0140623,cover=3584.01
+			12:leaf=-0.0514185,cover=215.101
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=36.2584,cover=766.086
+			13:leaf=0.0154262,cover=736.621
+			14:leaf=-0.0959173,cover=29.465
+booster[42]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=75.1613,cover=6802.95
+	1:[event_loc_dist_q5<0.180282] yes=3,no=4,missing=4,gain=22.6505,cover=2257.63
+		3:[events_weekday_3<5.5] yes=7,no=8,missing=7,gain=20.089,cover=1754.55
+			7:leaf=-0.0326904,cover=1401.89
+			8:leaf=-0.00597198,cover=352.658
+		4:[event_channel_b<13.5] yes=9,no=10,missing=9,gain=7.22034,cover=503.082
+			9:leaf=-0.0521147,cover=501.995
+			10:leaf=0.137659,cover=1.0868
+	2:[card_dec<0.5] yes=5,no=6,missing=5,gain=35.2892,cover=4545.32
+		5:[event_channel_b<3.5] yes=11,no=12,missing=11,gain=39.7438,cover=4498.7
+			11:leaf=-0.0136958,cover=3747.25
+			12:leaf=0.0114909,cover=751.449
+		6:[event_loc_y_med<0.151116] yes=13,no=14,missing=13,gain=0.784266,cover=46.6254
+			13:leaf=-0.0980319,cover=45.5107
+			14:leaf=-0.00669151,cover=1.11468
+booster[43]:
+0:[idle_days<9.5] yes=1,no=2,missing=2,gain=69.3425,cover=6692.23
+	1:[wealth_last<0.5] yes=3,no=4,missing=3,gain=35.7301,cover=3185.29
+		3:[card_last<0.5] yes=7,no=8,missing=7,gain=23.8864,cover=2346.4
+			7:leaf=-0.00911742,cover=2174.14
+			8:leaf=-0.04771,cover=172.255
+		4:[event_center_dist_q2<0.759117] yes=9,no=10,missing=9,gain=27.4764,cover=838.895
+			9:leaf=0.0069937,cover=778.887
+			10:leaf=0.0766975,cover=60.008
+	2:[inc_cat<2.5] yes=5,no=6,missing=5,gain=28.6178,cover=3506.93
+		5:[event_center_dist_min<0.00921974] yes=11,no=12,missing=11,gain=12.5004,cover=1401.7
+			11:leaf=-0.0513083,cover=430.524
+			12:leaf=-0.0307447,cover=971.173
+		6:[age_cat<2.5] yes=13,no=14,missing=13,gain=20.9357,cover=2105.24
+			13:leaf=-0.0141793,cover=1756.94
+			14:leaf=-0.0410056,cover=348.297
+booster[44]:
+0:[event_amt_b<7.5] yes=1,no=2,missing=1,gain=62.9387,cover=6592.09
+	1:[inc_cat<1.5] yes=3,no=4,missing=3,gain=35.1549,cover=3966.29
+		3:[age_cat_b<0.5] yes=7,no=8,missing=7,gain=21.193,cover=674.29
+			7:leaf=-0.0595209,cover=374.799
+			8:leaf=-0.023735,cover=299.491
+		4:[card_last<0.5] yes=9,no=10,missing=9,gain=30.2332,cover=3292
+			9:leaf=-0.0164962,cover=3139.73
+			10:leaf=-0.0620062,cover=152.271
+	2:[event_center_dist_q2<0.821213] yes=5,no=6,missing=5,gain=34.7952,cover=2625.8
+		5:[card_dec<0.5] yes=11,no=12,missing=11,gain=25.108,cover=2554.1
+			11:leaf=-0.00382071,cover=2526.82
+			12:leaf=-0.0985775,cover=27.279
+		6:[event_time_c<7.5] yes=13,no=14,missing=13,gain=25.2352,cover=71.7008
+			13:leaf=0.0346607,cover=57.767
+			14:leaf=0.181444,cover=13.9338
+booster[45]:
+0:[events_weekday_r_5<0.0438276] yes=1,no=2,missing=1,gain=58.1316,cover=6501.83
+	1:[idle_days<98.5] yes=3,no=4,missing=4,gain=21.2966,cover=2755.75
+		3:[inc_cat<1.5] yes=7,no=8,missing=7,gain=14.3736,cover=2043.9
+			7:leaf=-0.0377048,cover=356.635
+			8:leaf=-0.0156066,cover=1687.26
+		4:[gender_m<0.5] yes=9,no=10,missing=9,gain=10.7379,cover=711.853
+			9:leaf=-0.0518476,cover=356.813
+			10:leaf=-0.0271402,cover=355.041
+	2:[event_channel_b<4.5] yes=5,no=6,missing=5,gain=32.5833,cover=3746.07
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=30.7395,cover=3319.33
+			11:leaf=-0.00651915,cover=3129.92
+			12:leaf=-0.0479071,cover=189.415
+		6:[active_days_density<0.662958] yes=13,no=14,missing=14,gain=21.2082,cover=426.744
+			13:leaf=0.0174059,cover=420.212
+			14:leaf=0.186874,cover=6.53143
+booster[46]:
+0:[event_loc_b<6.5] yes=1,no=2,missing=1,gain=51.7211,cover=6420.12
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=28.7281,cover=3938.66
+		3:[event_mc_e<8.5] yes=7,no=8,missing=7,gain=10.4942,cover=1465.88
+			7:leaf=-0.0314119,cover=1455.67
+			8:leaf=0.0661106,cover=10.2189
+		4:[events_weekday_5<14.5] yes=9,no=10,missing=9,gain=22.6465,cover=2472.78
+			9:leaf=-0.0147806,cover=2391.64
+			10:leaf=0.0386414,cover=81.1378
+	2:[event_mc_r_d<0.00997512] yes=5,no=6,missing=5,gain=29.8611,cover=2481.46
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=26.3071,cover=1901.28
+			11:leaf=-0.00382656,cover=1755.77
+			12:leaf=-0.0479381,cover=145.501
+		6:[event_channel_r_b<0.0315375] yes=13,no=14,missing=13,gain=19.4966,cover=580.183
+			13:leaf=-0.000268355,cover=280.81
+			14:leaf=0.0363828,cover=299.373
+booster[47]:
+0:[uniq_poi<1.5] yes=1,no=2,missing=1,gain=47.0714,cover=6345.88
+	1:[age_cat<2.5] yes=3,no=4,missing=3,gain=16.3066,cover=1139.63
+		3:[wealth_months<5.5] yes=7,no=8,missing=7,gain=12.702,cover=945.352
+			7:leaf=-0.0281205,cover=852.978
+			8:leaf=0.0108166,cover=92.3737
+		4:[event_loc_angle_mean<-1.57967] yes=9,no=10,missing=10,gain=4.59523,cover=194.277
+			9:leaf=-0.0185216,cover=28.8709
+			10:leaf=-0.0625477,cover=165.406
+	2:[wealth_last<0.5] yes=5,no=6,missing=5,gain=36.5694,cover=5206.26
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=30.6952,cover=4025.43
+			11:leaf=-0.00970751,cover=3791.37
+			12:leaf=-0.0469555,cover=234.062
+		6:[gender_m<0.5] yes=13,no=14,missing=13,gain=24.4955,cover=1180.83
+			13:leaf=0.0194014,cover=731.506
+			14:leaf=-0.0102398,cover=449.32
+booster[48]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=44.6784,cover=6279.37
+	1:[event_loc_dist_q5<0.180282] yes=3,no=4,missing=4,gain=18.3022,cover=1982.85
+		3:[card_last<0.5] yes=7,no=8,missing=7,gain=14.8795,cover=1561.71
+			7:leaf=-0.015616,cover=1490.66
+			8:leaf=-0.0621929,cover=71.0538
+		4:[event_center_dist_q5<0.644612] yes=9,no=10,missing=9,gain=7.05632,cover=421.135
+			9:leaf=-0.036742,cover=378.454
+			10:leaf=-0.0796929,cover=42.6806
+	2:[card_dec<0.5] yes=5,no=6,missing=5,gain=30.2465,cover=4296.52
+		5:[event_channel_b<1.5] yes=11,no=12,missing=11,gain=30.4731,cover=4259.9
+			11:leaf=-0.0108011,cover=2541.53
+			12:leaf=0.0064355,cover=1718.37
+		6:[event_loc_dist_q5<0.543085] yes=13,no=14,missing=13,gain=0.857713,cover=36.6183
+			13:leaf=-0.0964131,cover=35.6162
+			14:leaf=-0.00131303,cover=1.00214
+booster[49]:
+0:[idle_days<9.5] yes=1,no=2,missing=2,gain=42.8932,cover=6219.23
+	1:[card_dec<0.5] yes=3,no=4,missing=3,gain=24.2464,cover=3046.85
+		3:[wealth_last<0.5] yes=7,no=8,missing=7,gain=23.7855,cover=3018.54
+			7:leaf=-0.00551475,cover=2197.8
+			8:leaf=0.0144259,cover=820.74
+		4:[events_weekday_r_2<0.248457] yes=9,no=10,missing=10,gain=0.837771,cover=28.3115
+			9:leaf=-0.0978634,cover=25.0713
+			10:leaf=-0.0306618,cover=3.24021
+	2:[idle_days<98.5] yes=5,no=6,missing=6,gain=19.0901,cover=3172.38
+		5:[card_last<0.5] yes=11,no=12,missing=11,gain=17.2582,cover=2497
+			11:leaf=-0.0117947,cover=2393.54
+			12:leaf=-0.0533407,cover=103.458
+		6:[gender_m<0.5] yes=13,no=14,missing=13,gain=10.4448,cover=675.381
+			13:leaf=-0.0450419,cover=334.462
+			14:leaf=-0.0200808,cover=340.92
+booster[50]:
+0:[event_mc_r_a<0.0570524] yes=1,no=2,missing=1,gain=37.4267,cover=6164.84
+	1:[event_loc_b<2.5] yes=3,no=4,missing=3,gain=16.0399,cover=2073.93
+		3:[inc_cat<3.5] yes=7,no=8,missing=7,gain=9.10566,cover=1436.11
+			7:leaf=-0.0269433,cover=1383.59
+			8:leaf=0.0152412,cover=52.5229
+		4:[event_loc_x_med<-0.403182] yes=9,no=10,missing=10,gain=11.8582,cover=637.819
+			9:leaf=0.112172,cover=7.33941
+			10:leaf=-0.00787854,cover=630.479
+	2:[event_channel_b<2.5] yes=5,no=6,missing=5,gain=31.6628,cover=4090.91
+		5:[event_center_dist_q2<0.821915] yes=11,no=12,missing=11,gain=21.7128,cover=3021.63
+			11:leaf=-0.00978534,cover=2929.45
+			12:leaf=0.0392563,cover=92.1787
+		6:[card_dec<0.5] yes=13,no=14,missing=13,gain=25.8256,cover=1069.29
+			13:leaf=0.0140319,cover=1047.2
+			14:leaf=-0.0929309,cover=22.0822
+booster[51]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=34.8991,cover=6115.67
+	1:[event_loc_dist_q5<0.180282] yes=3,no=4,missing=4,gain=14.964,cover=1896.29
+		3:[card_last<0.5] yes=7,no=8,missing=7,gain=13.0645,cover=1505.32
+			7:leaf=-0.0125305,cover=1440.57
+			8:leaf=-0.0581492,cover=64.7473
+		4:[event_center_dist_q5<0.644612] yes=9,no=10,missing=9,gain=7.32949,cover=390.974
+			9:leaf=-0.0317604,cover=351.998
+			10:leaf=-0.0773465,cover=38.9761
+	2:[age_cat<2.5] yes=5,no=6,missing=5,gain=26.9535,cover=4219.38
+		5:[event_channel_b<4.5] yes=11,no=12,missing=11,gain=25.6245,cover=3584.41
+			11:leaf=-0.00233549,cover=3194.34
+			12:leaf=0.0247836,cover=390.066
+		6:[event_center_dist_q8<0.958925] yes=13,no=14,missing=13,gain=29.6652,cover=634.973
+			13:leaf=-0.0234804,cover=631.589
+			14:leaf=0.237766,cover=3.38364
+booster[52]:
+0:[events<37.5] yes=1,no=2,missing=1,gain=32.7051,cover=6071.24
+	1:[event_center_dist_q8<0.101645] yes=3,no=4,missing=3,gain=26.2186,cover=4357.57
+		3:[event_loc_r_a<0.929803] yes=7,no=8,missing=7,gain=17.4836,cover=1509.22
+			7:leaf=-0.0286022,cover=1127.81
+			8:leaf=-0.00382664,cover=381.409
+		4:[card_last<0.5] yes=9,no=10,missing=9,gain=23.8676,cover=2848.35
+			9:leaf=-0.00407907,cover=2723.82
+			10:leaf=-0.0486798,cover=124.532
+	2:[event_card_r_c<0.152246] yes=5,no=6,missing=5,gain=16.7511,cover=1713.67
+		5:[event_channel_b<12.5] yes=11,no=12,missing=11,gain=21.21,cover=1619.29
+			11:leaf=0.00566547,cover=1598.56
+			12:leaf=0.105136,cover=20.7327
+		6:[event_mc_r_c<0.0486621] yes=13,no=14,missing=13,gain=8.21745,cover=94.3753
+			13:leaf=-0.0481789,cover=80.7855
+			14:leaf=0.0339271,cover=13.5898
+booster[53]:
+0:[events_weekday_r_5<0.0438276] yes=1,no=2,missing=1,gain=30.7258,cover=6031.29
+	1:[age_cat<2.5] yes=3,no=4,missing=3,gain=15.9065,cover=2460.94
+		3:[wealth_months<4.5] yes=7,no=8,missing=7,gain=20.4788,cover=2088.8
+			7:leaf=-0.0157175,cover=1784.58
+			8:leaf=0.0123209,cover=304.221
+		4:[event_time_r_c<0.131884] yes=9,no=10,missing=9,gain=9.50778,cover=372.139
+			9:leaf=-0.037215,cover=358.417
+			10:leaf=0.0452765,cover=13.7213
+	2:[event_center_dist_max<0.242689] yes=5,no=6,missing=5,gain=26.3686,cover=3570.35
+		5:[event_time_a<70.5] yes=11,no=12,missing=11,gain=12.5709,cover=1262.29
+			11:leaf=-0.0131075,cover=1250.99
+			12:leaf=0.088552,cover=11.2977
+		6:[event_card_d<74.5] yes=13,no=14,missing=13,gain=20.2909,cover=2308.06
+			13:leaf=0.00354393,cover=2178.36
+			14:leaf=0.0441123,cover=129.706
+booster[54]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=28.9516,cover=5995.16
+	1:[event_channel_b<2.5] yes=3,no=4,missing=3,gain=30.3093,cover=5958.72
+		3:[inc_cat<2.5] yes=7,no=8,missing=7,gain=26.367,cover=4365.46
+			7:leaf=-0.021323,cover=1331.51
+			8:leaf=-0.00444542,cover=3033.94
+		4:[events_weekday_6<3.5] yes=9,no=10,missing=9,gain=19.6858,cover=1593.26
+			9:leaf=9.46759e-05,cover=1195.39
+			10:leaf=0.0257505,cover=397.875
+	2:[event_mc_r_d<0.0931713] yes=5,no=6,missing=5,gain=0.865613,cover=36.4383
+		5:[event_loc_y_med<0.140713] yes=11,no=12,missing=11,gain=0.909514,cover=35.4334
+			11:leaf=-0.0986931,cover=34.43
+			12:leaf=-0.00106897,cover=1.00337
+		6:leaf=-0.000973962,cover=1.00495
+booster[55]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=26.3062,cover=5962.11
+	1:[idle_days<5.5] yes=3,no=4,missing=4,gain=27.4658,cover=5928.82
+		3:[event_center_dist_q2<0.818242] yes=7,no=8,missing=7,gain=19.0199,cover=2131.05
+			7:leaf=0.0024911,cover=2057.22
+			8:leaf=0.0538199,cover=73.8233
+		4:[event_mc_r_d<0.00772212] yes=9,no=10,missing=9,gain=18.8407,cover=3797.77
+			9:leaf=-0.0125899,cover=3310.79
+			10:leaf=0.00846271,cover=486.984
+	2:[event_mc_r_d<0.0931713] yes=5,no=6,missing=5,gain=0.852344,cover=33.2905
+		5:[event_loc_x_med<-0.262722] yes=11,no=12,missing=12,gain=0.900777,cover=32.2865
+			11:leaf=-0.00102812,cover=1.00337
+			12:leaf=-0.0982752,cover=31.2831
+		6:leaf=-0.000925594,cover=1.004
+booster[56]:
+0:[wealth_months<4.5] yes=1,no=2,missing=1,gain=24.8805,cover=5932.62
+	1:[card_last<0.5] yes=3,no=4,missing=3,gain=26.2614,cover=4701.33
+		3:[event_mc_d<2.5] yes=7,no=8,missing=7,gain=24.5343,cover=4473.75
+			7:leaf=-0.00763665,cover=4357.5
+			8:leaf=0.0387207,cover=116.257
+		4:[event_time_c<9.5] yes=9,no=10,missing=9,gain=13.2136,cover=227.577
+			9:leaf=-0.0505562,cover=197.477
+			10:leaf=0.0199941,cover=30.0995
+	2:[age_cat_b<0.5] yes=5,no=6,missing=5,gain=26.9173,cover=1231.29
+		5:[event_time_-<27.5] yes=11,no=12,missing=11,gain=16.1401,cover=449.891
+			11:leaf=-0.0176556,cover=408.776
+			12:leaf=0.0473812,cover=41.1149
+		6:[loc_y<0.16952] yes=13,no=14,missing=13,gain=18.8016,cover=781.398
+			13:leaf=0.0133928,cover=690.809
+			14:leaf=0.0616533,cover=90.5895
+booster[57]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=23.4771,cover=5906.03
+	1:[event_channel_b<2.5] yes=3,no=4,missing=3,gain=24.2154,cover=5876.27
+		3:[inc_cat<2.5] yes=7,no=8,missing=7,gain=21.1468,cover=4285.77
+			7:leaf=-0.0185169,cover=1287.73
+			8:leaf=-0.00319797,cover=2998.04
+		4:[age_cat_b<0.5] yes=9,no=10,missing=9,gain=17.8319,cover=1590.5
+			9:leaf=-0.00654947,cover=622.916
+			10:leaf=0.0151306,cover=967.588
+	2:[event_channel_r_n<0.793988] yes=5,no=6,missing=5,gain=0.835565,cover=29.7564
+		5:[event_mc_r_d<0.089899] yes=11,no=12,missing=11,gain=0.844674,cover=28.7548
+			11:leaf=-0.0977504,cover=27.7014
+			12:leaf=-0.00331413,cover=1.0534
+		6:leaf=-0.000826752,cover=1.00164
+booster[58]:
+0:[event_mc_r_a<0.0570524] yes=1,no=2,missing=1,gain=21.3092,cover=5881.74
+	1:[age_cat<2.5] yes=3,no=4,missing=3,gain=12.7195,cover=1917.2
+		3:[inc_cat<1.5] yes=7,no=8,missing=7,gain=13.1681,cover=1674.45
+			7:leaf=-0.0269603,cover=341.845
+			8:leaf=-0.00497959,cover=1332.61
+		4:[event_channel_n<16.5] yes=9,no=10,missing=9,gain=10.2869,cover=242.745
+			9:leaf=-0.0397975,cover=224.682
+			10:leaf=0.0371271,cover=18.0629
+	2:[event_center_dist_max<0.958889] yes=5,no=6,missing=5,gain=23.0853,cover=3964.54
+		5:[event_card_r_c<0.152246] yes=11,no=12,missing=11,gain=19.4191,cover=3896.63
+			11:leaf=0.000599423,cover=3756.3
+			12:leaf=-0.0371589,cover=140.332
+		6:[event_center_dist_q8<0.0162724] yes=13,no=14,missing=14,gain=9.18888,cover=67.9112
+			13:leaf=0.245648,cover=1.57007
+			14:leaf=0.0495874,cover=66.3411
+booster[59]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=21.1397,cover=5859.44
+	1:[event_channel_b<1.5] yes=3,no=4,missing=3,gain=21.2366,cover=5832.53
+		3:[event_mc_r_d<0.0191695] yes=7,no=8,missing=7,gain=13.5815,cover=3413.53
+			7:leaf=-0.0107256,cover=2950.95
+			8:leaf=0.0076904,cover=462.578
+		4:[events_weekday_4<16.5] yes=9,no=10,missing=9,gain=22.5326,cover=2419
+			9:leaf=0.00147339,cover=2262.82
+			10:leaf=0.0406297,cover=156.178
+	2:[event_mc_r_c<0.141941] yes=5,no=6,missing=5,gain=0.818181,cover=26.9141
+		5:[event_loc_dist_std<0.266351] yes=11,no=12,missing=11,gain=0.879773,cover=25.9074
+			11:leaf=-0.0972562,cover=24.9035
+			12:leaf=-0.000919354,cover=1.00387
+		6:leaf=-0.000934952,cover=1.0067
+booster[60]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=19.1049,cover=5839.93
+	1:[wealth_last<0.5] yes=3,no=4,missing=3,gain=19.6002,cover=5815.28
+		3:[event_center_dist_q8<0.0975376] yes=7,no=8,missing=7,gain=19.558,cover=4511.45
+			7:leaf=-0.0147767,cover=1616.32
+			8:leaf=-0.00104738,cover=2895.13
+		4:[age_cat_b<0.5] yes=9,no=10,missing=9,gain=20.7412,cover=1303.83
+			9:leaf=-0.0090202,cover=463.582
+			10:leaf=0.0173087,cover=840.251
+	2:[event_loc_dist_q5<0.465513] yes=5,no=6,missing=5,gain=0.802596,cover=24.6523
+		5:[event_mc_r_c<0.137626] yes=11,no=12,missing=11,gain=0.868926,cover=23.6522
+			11:leaf=-0.0967787,cover=22.6446
+			12:leaf=-0.000977795,cover=1.00764
+		6:leaf=-0.000757099,cover=1.00011
+booster[61]:
+0:[card_last<0.5] yes=1,no=2,missing=1,gain=18.3834,cover=5822.48
+	1:[event_amt_b<28.5] yes=3,no=4,missing=3,gain=19.5387,cover=5535.37
+		3:[event_center_dist_q8<0.116586] yes=7,no=8,missing=7,gain=20.058,cover=5009.37
+			7:leaf=-0.0119451,cover=1818.54
+			8:leaf=0.00121121,cover=3190.83
+		4:[events_weekday_r_0<0.253745] yes=9,no=10,missing=10,gain=12.2779,cover=526.001
+			9:leaf=0.0191214,cover=513.458
+			10:leaf=-0.0774468,cover=12.5431
+	2:[event_mc_c<3.5] yes=5,no=6,missing=5,gain=13.5522,cover=287.108
+		5:[event_channel_r_n<0.0147091] yes=11,no=12,missing=11,gain=8.85892,cover=261.632
+			11:leaf=-0.0556425,cover=111.273
+			12:leaf=-0.0183253,cover=150.359
+		6:[event_channel_b<8.5] yes=13,no=14,missing=13,gain=18.3684,cover=25.4756
+			13:leaf=0.00474404,cover=22.3147
+			14:leaf=0.233832,cover=3.16089
+booster[62]:
+0:[events_weekday_r_5<0.046404] yes=1,no=2,missing=1,gain=17.2927,cover=5806.35
+	1:[inc_cat<1.5] yes=3,no=4,missing=3,gain=12.4425,cover=2350.22
+		3:[age_cat_b<0.5] yes=7,no=8,missing=7,gain=8.32548,cover=391.443
+			7:leaf=-0.0392866,cover=206.321
+			8:leaf=-0.0100375,cover=185.122
+		4:[age_cat<2.5] yes=9,no=10,missing=9,gain=13.9947,cover=1958.77
+			9:leaf=-0.00238155,cover=1656.23
+			10:leaf=-0.0257403,cover=302.543
+	2:[event_channel_b<8.5] yes=5,no=6,missing=5,gain=19.8814,cover=3456.13
+		5:[event_center_dist_q2<0.325574] yes=11,no=12,missing=11,gain=22.3884,cover=3356.05
+			11:leaf=-0.00661388,cover=1898.86
+			12:leaf=0.00985966,cover=1457.2
+		6:[events_weekday_6<7.5] yes=13,no=14,missing=13,gain=17.4184,cover=100.075
+			13:leaf=0.024364,cover=80.7116
+			14:leaf=0.128341,cover=19.3638
+booster[63]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=17.0125,cover=5791.64
+	1:[idle_days<98.5] yes=3,no=4,missing=4,gain=16.408,cover=5769.51
+		3:[wealth_months<4.5] yes=7,no=8,missing=7,gain=13.7738,cover=5206.98
+			7:leaf=-0.00306406,cover=4037.55
+			8:leaf=0.00925611,cover=1169.44
+		4:[gender_m<0.5] yes=9,no=10,missing=9,gain=10.5607,cover=562.523
+			9:leaf=-0.0322739,cover=274.18
+			10:leaf=-0.00486734,cover=288.344
+	2:[event_center_dist_mean<0.811892] yes=5,no=6,missing=5,gain=0.78976,cover=22.1364
+		5:[event_channel_n<47.5] yes=11,no=12,missing=11,gain=0.856489,cover=21.1354
+			11:leaf=-0.0961946,cover=20.1297
+			12:leaf=-0.000868541,cover=1.00571
+		6:leaf=-0.000543772,cover=1.00095
+booster[64]:
+0:[card_last<0.5] yes=1,no=2,missing=1,gain=15.6814,cover=5778.35
+	1:[events_weekday_5<13.5] yes=3,no=4,missing=3,gain=15.7694,cover=5499.74
+		3:[event_center_dist_q8<0.116586] yes=7,no=8,missing=7,gain=17.1417,cover=5248.24
+			7:leaf=-0.00970446,cover=1914.58
+			8:leaf=0.00216542,cover=3333.66
+		4:[events_weekday_r_2<0.211189] yes=9,no=10,missing=10,gain=20.409,cover=251.505
+			9:leaf=0.0181973,cover=244.505
+			10:leaf=0.180714,cover=7.00047
+	2:[uniq_poi<12.5] yes=5,no=6,missing=5,gain=11.9874,cover=278.609
+		5:[event_center_dist_mean<0.022825] yes=11,no=12,missing=12,gain=5.26457,cover=185.912
+			11:leaf=0.0204401,cover=12.9109
+			12:leaf=-0.0444419,cover=173.002
+		6:[event_loc_dist_mean<0.117505] yes=13,no=14,missing=14,gain=11.4454,cover=92.6967
+			13:leaf=-0.0123266,cover=76.5051
+			14:leaf=0.0778703,cover=16.1915
+booster[65]:
+0:[inc_cat<2.5] yes=1,no=2,missing=1,gain=15.0426,cover=5766.37
+	1:[event_loc_c<25.5] yes=3,no=4,missing=3,gain=11.1971,cover=1708.94
+		3:[event_center_angle_mean<-2.54242] yes=7,no=8,missing=8,gain=11.2467,cover=1699.19
+			7:leaf=0.017618,cover=130.77
+			8:leaf=-0.0128133,cover=1568.42
+		4:[events_weekday_r_6<0.0281746] yes=9,no=10,missing=10,gain=11.5804,cover=9.75036
+			9:leaf=-0.0739356,cover=2.48004
+			10:leaf=0.150648,cover=7.27032
+	2:[age_cat<2.5] yes=5,no=6,missing=5,gain=13.5944,cover=4057.43
+		5:[event_channel_b<4.5] yes=11,no=12,missing=11,gain=13.7021,cover=3481.68
+			11:leaf=0.0014515,cover=3082.43
+			12:leaf=0.0211192,cover=399.248
+		6:[event_center_dist_q8<0.958925] yes=13,no=14,missing=13,gain=21.1121,cover=575.746
+			13:leaf=-0.0146367,cover=571.696
+			14:leaf=0.190814,cover=4.04974
+booster[66]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=15.1122,cover=5754.91
+	1:[event_channel_b<2.5] yes=3,no=4,missing=3,gain=14.1275,cover=5734.96
+		3:[event_amt_r_c<0.0696663] yes=7,no=8,missing=7,gain=14.1148,cover=4145.96
+			7:leaf=-0.00956603,cover=2375.5
+			8:leaf=0.00222771,cover=1770.47
+		4:[event_loc_dist_q5<0.764087] yes=9,no=10,missing=10,gain=14.6317,cover=1589
+			9:leaf=0.00549622,cover=1570.93
+			10:leaf=0.0936462,cover=18.064
+	2:[event_mc_r_j<0.106203] yes=5,no=6,missing=5,gain=0.865791,cover=19.9534
+		5:leaf=-0.0952765,cover=16.946
+		6:[loc_x<0.202812] yes=11,no=12,missing=11,gain=1.57994,cover=3.00736
+			11:leaf=-0.0672627,cover=2.00587
+			12:leaf=0.0493302,cover=1.00149
+booster[67]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=13.6055,cover=5745.23
+	1:[idle_days<5.5] yes=3,no=4,missing=4,gain=13.4428,cover=5726.87
+		3:[loc_x<0.774012] yes=7,no=8,missing=7,gain=12.4009,cover=2114.54
+			7:leaf=0.00312878,cover=1994.66
+			8:leaf=0.0361173,cover=119.881
+		4:[event_channel_b<22.5] yes=9,no=10,missing=9,gain=13.0505,cover=3612.33
+			9:leaf=-0.00520481,cover=3609.94
+			10:leaf=0.191166,cover=2.38819
+	2:[event_mc_r_j<0.106203] yes=5,no=6,missing=5,gain=0.878742,cover=18.3592
+		5:leaf=-0.0946818,cover=15.4309
+		6:[event_loc_angle_max<-1.52256] yes=11,no=12,missing=12,gain=1.54546,cover=2.92828
+			11:leaf=0.0493721,cover=1.00148
+			12:leaf=-0.0663772,cover=1.9268
+booster[68]:
+0:[card_last<0.5] yes=1,no=2,missing=1,gain=13.0306,cover=5736.28
+	1:[event_amt_b<28.5] yes=3,no=4,missing=3,gain=12.0721,cover=5466.19
+		3:[inc_cat<1.5] yes=7,no=8,missing=7,gain=12.0513,cover=4929.08
+			7:leaf=-0.0151373,cover=605.31
+			8:leaf=-8.27995e-05,cover=4323.77
+		4:[event_amt_r_b<0.22773] yes=9,no=10,missing=9,gain=11.0733,cover=537.109
+			9:leaf=0.111562,cover=10.3649
+			10:leaf=0.0117095,cover=526.744
+	2:[event_mc_r_c<0.0350264] yes=5,no=6,missing=5,gain=10.603,cover=270.093
+		5:[event_mc_r_-<0.402791] yes=11,no=12,missing=11,gain=7.2591,cover=219.741
+			11:leaf=-0.0499908,cover=112.268
+			12:leaf=-0.0135376,cover=107.474
+		6:[event_loc_dist_mean<0.226387] yes=13,no=14,missing=13,gain=15.7903,cover=50.3515
+			13:leaf=-0.000487287,cover=46.0743
+			14:leaf=0.182119,cover=4.27718
+booster[69]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=12.0383,cover=5727.63
+	1:[event_channel_b<1.5] yes=3,no=4,missing=3,gain=12.1805,cover=5710.97
+		3:[event_amt_r_a<0.633122] yes=7,no=8,missing=7,gain=10.1297,cover=3302.92
+			7:leaf=-0.00377228,cover=3151.56
+			8:leaf=-0.0301764,cover=151.356
+		4:[age_cat_b<0.5] yes=9,no=10,missing=9,gain=14.234,cover=2408.05
+			9:leaf=-0.00532396,cover=930.668
+			10:leaf=0.0104587,cover=1477.38
+	2:[events_weekday_r_2<0.248457] yes=5,no=6,missing=5,gain=0.921425,cover=16.6613
+		5:leaf=-0.0939593,cover=13.8725
+		6:[event_loc_dist_std<0.02224] yes=11,no=12,missing=12,gain=1.47952,cover=2.78879
+			11:leaf=-0.0646744,cover=1.78839
+			12:leaf=0.0494148,cover=1.0004
+booster[70]:
+0:[event_card_r_c<0.152246] yes=1,no=2,missing=1,gain=11.3613,cover=5720.61
+	1:[event_card_c<8.5] yes=3,no=4,missing=3,gain=14.5704,cover=5583.94
+		3:[event_mc_r_d<0.00503782] yes=7,no=8,missing=7,gain=12.9844,cover=5577.57
+			7:leaf=-0.00295179,cover=4556.03
+			8:leaf=0.00951718,cover=1021.54
+		4:[events_weekday_r_4<0.157599] yes=9,no=10,missing=10,gain=18.754,cover=6.37079
+			9:leaf=-0.0504174,cover=2.74804
+			10:leaf=0.26414,cover=3.62276
+	2:[event_mc_r_f<0.0117417] yes=5,no=6,missing=5,gain=9.96895,cover=136.669
+		5:[event_amt_r_b<0.85015] yes=11,no=12,missing=11,gain=8.79223,cover=104.981
+			11:leaf=-0.0489025,cover=102.873
+			12:leaf=0.123659,cover=2.10826
+		6:[events_weekday_0<7.5] yes=13,no=14,missing=13,gain=10.631,cover=31.6882
+			13:leaf=0.0896424,cover=11.9808
+			14:leaf=-0.025979,cover=19.7075
+booster[71]:
+0:[idle_days<98.5] yes=1,no=2,missing=1,gain=11.0903,cover=5713.88
+	1:[loc_x<-0.258788] yes=3,no=4,missing=3,gain=12.2457,cover=5402.37
+		3:[event_center_dist_max<0.432294] yes=7,no=8,missing=8,gain=18.474,cover=1033.67
+			7:leaf=0.042771,cover=144.809
+			8:leaf=0.00436044,cover=888.859
+		4:[event_center_dist_max<0.8288] yes=9,no=10,missing=9,gain=14.3821,cover=4368.7
+			9:leaf=-0.00379091,cover=4100.27
+			10:leaf=0.0200601,cover=268.438
+	2:[event_loc_angle_mean<1.64782] yes=5,no=6,missing=6,gain=11.3516,cover=311.512
+		5:[event_mc_r_d<0.633333] yes=11,no=12,missing=11,gain=4.7147,cover=285.519
+			11:leaf=-0.0262293,cover=284.255
+			12:leaf=0.119633,cover=1.26347
+		6:[loc_x<0.244012] yes=13,no=14,missing=13,gain=8.4755,cover=25.9937
+			13:leaf=0.0666464,cover=22.1602
+			14:leaf=-0.0804447,cover=3.83347
+booster[72]:
+0:[wealth_months<4.5] yes=1,no=2,missing=1,gain=10.9612,cover=5708.17
+	1:[event_mc_d<2.5] yes=3,no=4,missing=3,gain=14.5747,cover=4475.74
+		3:[event_channel_b<21.5] yes=7,no=8,missing=7,gain=13.1684,cover=4343.43
+			7:leaf=-0.00446549,cover=4338.39
+			8:leaf=0.143287,cover=5.04129
+		4:[event_mc_i<16.5] yes=9,no=10,missing=9,gain=10.3781,cover=132.305
+			9:leaf=0.0253885,cover=130.983
+			10:leaf=0.239509,cover=1.32235
+	2:[event_center_dist_mean<1.01469] yes=5,no=6,missing=5,gain=16.4738,cover=1232.44
+		5:[gender_m<0.5] yes=11,no=12,missing=11,gain=13.4618,cover=1229.25
+			11:leaf=0.0149638,cover=756.909
+			12:leaf=-0.00653443,cover=472.343
+		6:[event_loc_angle_max<-1.56876] yes=13,no=14,missing=14,gain=11.7534,cover=3.18562
+			13:leaf=0.32374,cover=1.79884
+			14:leaf=-0.0193168,cover=1.38678
+booster[73]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=10.8251,cover=5702.12
+	1:[card_inc<0.5] yes=3,no=4,missing=3,gain=11.3003,cover=5686.83
+		3:[event_mc_r_j<0.753049] yes=7,no=8,missing=7,gain=10.197,cover=5630.9
+			7:leaf=-0.000541753,cover=5544.75
+			8:leaf=-0.0350155,cover=86.1514
+		4:[event_center_angle_med<2.00858] yes=9,no=10,missing=10,gain=23.7474,cover=55.9305
+			9:leaf=0.0196372,cover=50.1974
+			10:leaf=0.220195,cover=5.73309
+	2:[event_mc_r_j<0.106203] yes=5,no=6,missing=5,gain=1.00915,cover=15.2912
+		5:leaf=-0.0933337,cover=12.6886
+		6:[event_center_dist_min<0.284009] yes=11,no=12,missing=12,gain=1.38203,cover=2.60252
+			11:leaf=-0.0620264,cover=1.60238
+			12:leaf=0.0494572,cover=1.00014
+booster[74]:
+0:[uniq_poi_n<1.5] yes=1,no=2,missing=1,gain=10.0097,cover=5697.45
+	1:[card_last<0.5] yes=3,no=4,missing=3,gain=14.0768,cover=4680.97
+		3:[age_cat_b<0.5] yes=7,no=8,missing=7,gain=14.098,cover=4480.48
+			7:leaf=-0.00862668,cover=1733.51
+			8:leaf=0.00288789,cover=2746.96
+		4:[event_loc_r_a<0.207222] yes=9,no=10,missing=9,gain=5.69848,cover=200.487
+			9:leaf=-0.0383352,cover=149.824
+			10:leaf=0.000420205,cover=50.6624
+	2:[event_center_dist_min<0.818049] yes=5,no=6,missing=5,gain=23.1077,cover=1016.49
+		5:[event_channel_b<12.5] yes=11,no=12,missing=11,gain=12.9169,cover=999.951
+			11:leaf=0.00508272,cover=991.281
+			12:leaf=0.121237,cover=8.67012
+		6:[event_channel_r_b<0.0223471] yes=13,no=14,missing=13,gain=17.6278,cover=16.5377
+			13:leaf=0.00258325,cover=7.27519
+			14:leaf=0.206429,cover=9.2625
+booster[75]:
+0:[event_mc_a<51.5] yes=1,no=2,missing=1,gain=9.62987,cover=5692.8
+	1:[event_channel_b<19.5] yes=3,no=4,missing=3,gain=9.83545,cover=5429.65
+		3:[event_card_r_c<0.0119765] yes=7,no=8,missing=7,gain=11.3741,cover=5418.28
+			7:leaf=-0.00100769,cover=5257.01
+			8:leaf=-0.0278893,cover=161.263
+		4:[event_center_angle_max<0.272763] yes=9,no=10,missing=10,gain=14.1829,cover=11.3763
+			9:leaf=0.182628,cover=5.932
+			10:leaf=-0.0285275,cover=5.44431
+	2:[event_amt_r_c<0.401613] yes=5,no=6,missing=5,gain=13.7825,cover=263.147
+		5:[loc_x<-0.050388] yes=11,no=12,missing=11,gain=10.8547,cover=261.177
+			11:leaf=0.050884,cover=64.0089
+			12:leaf=0.00374241,cover=197.168
+		6:leaf=0.232347,cover=1.96965
+booster[76]:
+0:[event_amt_r_c<0.0567779] yes=1,no=2,missing=1,gain=9.50124,cover=5688.61
+	1:[events_weekday_1<30.5] yes=3,no=4,missing=3,gain=14.1076,cover=2984.87
+		3:[event_center_angle_mean<-2.20326] yes=7,no=8,missing=8,gain=13.0858,cover=2965.51
+			7:leaf=0.0114349,cover=411.835
+			8:leaf=-0.00775543,cover=2553.68
+		4:[event_mc_r_i<0.0561283] yes=9,no=10,missing=9,gain=13.5281,cover=19.3575
+			9:leaf=0.0478359,cover=18.244
+			10:leaf=0.320083,cover=1.11349
+	2:[uniq_poi<10.5] yes=5,no=6,missing=5,gain=14.1909,cover=2703.74
+		5:[events_weekday_r_4<0.228744] yes=11,no=12,missing=12,gain=13.9631,cover=1732.91
+			11:leaf=0.00413682,cover=1210.54
+			12:leaf=-0.0154092,cover=522.379
+		6:[event_mc_r_d<0.0973916] yes=13,no=14,missing=13,gain=14.7746,cover=970.828
+			13:leaf=0.0108842,cover=935.25
+			14:leaf=0.0757073,cover=35.5781
+booster[77]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=9.41989,cover=5684.31
+	1:[inc_cat<2.5] yes=3,no=4,missing=3,gain=8.93172,cover=5670.54
+		3:[event_amt_r_b<0.510102] yes=7,no=8,missing=7,gain=10.1137,cover=1650.71
+			7:leaf=-0.0099208,cover=1392.45
+			8:leaf=0.011594,cover=258.253
+		4:[loc_y<-0.16888] yes=9,no=10,missing=9,gain=10.8618,cover=4019.83
+			9:leaf=0.0106458,cover=1100.54
+			10:leaf=-0.00100779,cover=2919.29
+	2:[events_weekday_r_2<0.248457] yes=5,no=6,missing=5,gain=1.06552,cover=13.7732
+		5:leaf=-0.0924481,cover=11.32
+		6:[active_days_density<0.110128] yes=11,no=12,missing=12,gain=1.29636,cover=2.45324
+			11:leaf=-0.0596826,cover=1.45261
+			12:leaf=0.0493992,cover=1.00062
+booster[78]:
+0:[event_card_r_c<0.521981] yes=1,no=2,missing=1,gain=8.91612,cover=5680.76
+	1:[event_channel_b<1.5] yes=3,no=4,missing=3,gain=9.27686,cover=5618.5
+		3:[loc_y<-0.53968] yes=7,no=8,missing=7,gain=8.67942,cover=3238.66
+			7:leaf=-0.0224076,cover=226.603
+			8:leaf=-0.00215403,cover=3012.06
+		4:[event_channel_p<91.5] yes=9,no=10,missing=9,gain=14.1916,cover=2379.84
+			9:leaf=0.00342767,cover=2323.29
+			10:leaf=0.0537022,cover=56.5473
+	2:[event_loc_angle_mean<1.57851] yes=5,no=6,missing=5,gain=8.80665,cover=62.2566
+		5:[event_loc_dist_std<0.144507] yes=11,no=12,missing=11,gain=7.30488,cover=57.9874
+			11:leaf=-0.0619051,cover=50.5901
+			12:leaf=0.0402425,cover=7.39734
+		6:[event_card_r_c<0.70453] yes=13,no=14,missing=13,gain=8.06229,cover=4.26917
+			13:leaf=-0.0641806,cover=1.64829
+			14:leaf=0.17441,cover=2.62088
+booster[79]:
+0:[event_center_dist_q8<0.10567] yes=1,no=2,missing=2,gain=8.59956,cover=5677.67
+	1:[event_loc_r_a<0.931425] yes=3,no=4,missing=3,gain=18.4529,cover=1749.22
+		3:[active_days_density<0.190162] yes=7,no=8,missing=7,gain=14.526,cover=1297.57
+			7:leaf=-0.0226036,cover=668.7
+			8:leaf=-0.00143779,cover=628.869
+		4:[event_loc_x_med<0.058293] yes=9,no=10,missing=10,gain=13.5951,cover=451.657
+			9:leaf=0.00824489,cover=440.895
+			10:leaf=0.117226,cover=10.762
+	2:[event_amt_r_a<0.71853] yes=5,no=6,missing=5,gain=14.9651,cover=3928.45
+		5:[age_cat<2.5] yes=11,no=12,missing=11,gain=15.172,cover=3854.73
+			11:leaf=0.00512661,cover=3454.06
+			12:leaf=-0.0154077,cover=400.672
+		6:[event_center_angle_med<-2.99738] yes=13,no=14,missing=13,gain=10.1835,cover=73.7177
+			13:leaf=0.110559,cover=3.22261
+			14:leaf=-0.0506289,cover=70.4951
+booster[80]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=8.46587,cover=5675.34
+	1:[card_inc<0.5] yes=3,no=4,missing=3,gain=8.66052,cover=5662.59
+		3:[event_mc_r_j<0.859606] yes=7,no=8,missing=7,gain=8.56414,cover=5604.56
+			7:leaf=-0.000215117,cover=5541.37
+			8:leaf=-0.0369532,cover=63.188
+		4:[event_center_angle_med<2.00858] yes=9,no=10,missing=10,gain=15.7582,cover=58.0308
+			9:leaf=0.0171723,cover=51.1094
+			10:leaf=0.169233,cover=6.92138
+	2:[event_mc_r_j<0.106203] yes=5,no=6,missing=5,gain=1.1103,cover=12.7567
+		5:leaf=-0.0917636,cover=10.4091
+		6:[event_loc_dist_std<0.0425713] yes=11,no=12,missing=11,gain=1.23113,cover=2.34758
+			11:leaf=-0.0577723,cover=1.34706
+			12:leaf=0.0493982,cover=1.00052
+booster[81]:
+0:[idle_days<98.5] yes=1,no=2,missing=1,gain=8.231,cover=5672.93
+	1:[event_channel_r_b<0.0330124] yes=3,no=4,missing=3,gain=9.26117,cover=5371.95
+		3:[event_mc_r_g<0.0480031] yes=7,no=8,missing=7,gain=10.7176,cover=2471.1
+			7:leaf=-0.00436355,cover=2463.65
+			8:leaf=0.108503,cover=7.44343
+		4:[uniq_poi_b<1.5] yes=9,no=10,missing=9,gain=10.6461,cover=2900.86
+			9:leaf=0.00768309,cover=2226.43
+			10:leaf=-0.00665058,cover=674.42
+	2:[event_loc_angle_max<2.35045] yes=5,no=6,missing=6,gain=9.62307,cover=300.975
+		5:[age_cat<1.5] yes=11,no=12,missing=11,gain=5.16069,cover=285.759
+			11:leaf=0.00348512,cover=67.5222
+			12:leaf=-0.0280849,cover=218.237
+		6:[loc_x<0.246012] yes=13,no=14,missing=13,gain=10.6904,cover=15.2158
+			13:leaf=0.102947,cover=11.6997
+			14:leaf=-0.0788829,cover=3.51618
+booster[82]:
+0:[uniq_poi_n<1.5] yes=1,no=2,missing=1,gain=7.86539,cover=5670.92
+	1:[card_last<0.5] yes=3,no=4,missing=3,gain=10.3115,cover=4649.84
+		3:[loc_y<-0.16688] yes=7,no=8,missing=7,gain=10.5124,cover=4459.09
+			7:leaf=0.00630386,cover=1335.54
+			8:leaf=-0.00429327,cover=3123.55
+		4:[event_center_angle_mean<2.94896] yes=9,no=10,missing=9,gain=5.47276,cover=190.753
+			9:leaf=-0.0276494,cover=185.983
+			10:leaf=0.0717891,cover=4.76931
+	2:[event_center_dist_q2<0.818483] yes=5,no=6,missing=5,gain=16.8204,cover=1021.08
+		5:[active_weeks_density<0.362516] yes=11,no=12,missing=11,gain=11.3912,cover=989.919
+			11:leaf=0.0571712,cover=39.5686
+			12:leaf=0.00305702,cover=950.351
+		6:[event_channel_r_b<0.0223471] yes=13,no=14,missing=13,gain=22.2542,cover=31.1559
+			13:leaf=-0.0177765,cover=13.4998
+			14:leaf=0.149598,cover=17.656
+booster[83]:
+0:[wealth_months<4.5] yes=1,no=2,missing=1,gain=7.97501,cover=5668.85
+	1:[event_mc_r_g<0.047247] yes=3,no=4,missing=3,gain=9.7825,cover=4431.56
+		3:[event_mc_d<2.5] yes=7,no=8,missing=7,gain=9.25248,cover=4416.53
+			7:leaf=-0.00340232,cover=4279.71
+			8:leaf=0.022922,cover=136.828
+		4:[event_center_dist_mean<0.719025] yes=9,no=10,missing=9,gain=11.1769,cover=15.0253
+			9:leaf=0.0348919,cover=13.2822
+			10:leaf=0.260537,cover=1.74303
+	2:[event_center_dist_mean<1.01469] yes=5,no=6,missing=5,gain=12.3246,cover=1237.29
+		5:[events_weekday_r_3<0.161214] yes=11,no=12,missing=11,gain=11.5992,cover=1233.56
+			11:leaf=-0.00311745,cover=644.363
+			12:leaf=0.0162832,cover=589.194
+		6:[event_mc_r_a<0.322222] yes=13,no=14,missing=13,gain=8.25663,cover=3.73386
+			13:leaf=0.0343639,cover=2.60982
+			14:leaf=0.31568,cover=1.12405
+booster[84]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=7.48258,cover=5666.15
+	1:[event_mc_r_a<0.0604235] yes=3,no=4,missing=3,gain=7.41936,cover=5654.45
+		3:[event_center_angle_mean<-0.291245] yes=7,no=8,missing=7,gain=11.3685,cover=1793.32
+			7:leaf=0.000979317,cover=1089.89
+			8:leaf=-0.01532,cover=703.424
+		4:[event_channel_r_p<0.377421] yes=9,no=10,missing=9,gain=13.5389,cover=3861.13
+			9:leaf=0.0161871,cover=597.639
+			10:leaf=-0.000172796,cover=3263.49
+	2:[events_weekday_r_2<0.248457] yes=5,no=6,missing=5,gain=1.157,cover=11.7035
+		5:leaf=-0.0909248,cover=9.47169
+		6:[event_center_dist_q8<0.539555] yes=11,no=12,missing=12,gain=1.15562,cover=2.23181
+			11:leaf=-0.0555646,cover=1.23068
+			12:leaf=0.0493145,cover=1.00114
+booster[85]:
+0:[event_amt_r_c<0.0696663] yes=1,no=2,missing=1,gain=7.06917,cover=5664.53
+	1:[event_channel_b<21.5] yes=3,no=4,missing=3,gain=10.5281,cover=3155.48
+		3:[event_card_r_c<0.0152681] yes=7,no=8,missing=7,gain=11.3396,cover=3150.57
+			7:leaf=-0.00267699,cover=3070.3
+			8:leaf=-0.040523,cover=80.2744
+		4:[event_mc_-<41.5] yes=9,no=10,missing=9,gain=13.4523,cover=4.91201
+			9:leaf=0.28982,cover=1.78527
+			10:leaf=-0.00947634,cover=3.12674
+	2:[uniq_poi_p<9.5] yes=5,no=6,missing=5,gain=15.0686,cover=2509.04
+		5:[event_loc_r_c<0.919184] yes=11,no=12,missing=11,gain=10.3441,cover=1739.63
+			11:leaf=-0.000129345,cover=1691.02
+			12:leaf=-0.0464608,cover=48.6022
+		6:[loc_y<-0.17048] yes=13,no=14,missing=13,gain=12.348,cover=769.417
+			13:leaf=0.0416049,cover=144.408
+			14:leaf=0.0092254,cover=625.009
+booster[86]:
+0:[event_mc_r_d<0.645833] yes=1,no=2,missing=1,gain=7.0573,cover=5662.41
+	1:[idle_days<98.5] yes=3,no=4,missing=3,gain=6.91116,cover=5657.17
+		3:[event_center_dist_max<0.958889] yes=7,no=8,missing=7,gain=8.85481,cover=5365.74
+			7:leaf=-0.000116645,cover=5257.98
+			8:leaf=0.0287106,cover=107.758
+		4:[event_loc_angle_mean<1.64782] yes=9,no=10,missing=10,gain=7.5511,cover=291.435
+			9:leaf=-0.0204766,cover=264.514
+			10:leaf=0.0342789,cover=26.9203
+	2:[events_weekday_1<0.5] yes=5,no=6,missing=5,gain=11.2944,cover=5.2373
+		5:[idle_days<104] yes=11,no=12,missing=12,gain=5.2329,cover=3.86765
+			11:leaf=-0.0743212,cover=2.60501
+			12:leaf=0.119698,cover=1.26264
+		6:leaf=0.277997,cover=1.36964
+booster[87]:
+0:[event_amt_r_a<0.738992] yes=1,no=2,missing=1,gain=6.69658,cover=5660.72
+	1:[event_center_dist_q8<0.10567] yes=3,no=4,missing=4,gain=7.90577,cover=5560.31
+		3:[event_loc_r_a<0.930864] yes=7,no=8,missing=7,gain=16.1315,cover=1695.47
+			7:leaf=-0.0111223,cover=1264.72
+			8:leaf=0.0112647,cover=430.742
+		4:[event_mc_c<3.5] yes=9,no=10,missing=9,gain=12.4102,cover=3864.85
+			9:leaf=0.0014255,cover=3663.63
+			10:leaf=0.0268737,cover=201.217
+	2:[event_center_angle_max<2.79875] yes=5,no=6,missing=6,gain=11.5677,cover=100.409
+		5:[event_loc_r_b<0.0051396] yes=11,no=12,missing=11,gain=5.67187,cover=82.7194
+			11:leaf=0.00248413,cover=21.7458
+			12:leaf=-0.0567638,cover=60.9735
+		6:[events_weekday_r_2<0.133581] yes=13,no=14,missing=14,gain=15.4532,cover=17.6896
+			13:leaf=0.134409,cover=8.66259
+			14:leaf=-0.0439473,cover=9.02696
+booster[88]:
+0:[event_card_r_c<0.521981] yes=1,no=2,missing=1,gain=6.72867,cover=5659.75
+	1:[event_mc_a<51.5] yes=3,no=4,missing=3,gain=7.98963,cover=5601.27
+		3:[event_time_a<36.5] yes=7,no=8,missing=7,gain=8.99917,cover=5346.44
+			7:leaf=-0.00023613,cover=5291.01
+			8:leaf=-0.040385,cover=55.424
+		4:[event_amt_r_c<0.401613] yes=9,no=10,missing=9,gain=11.4235,cover=254.835
+			9:leaf=0.0149844,cover=252.62
+			10:leaf=0.204928,cover=2.21493
+	2:[event_loc_angle_mean<1.57851] yes=5,no=6,missing=5,gain=7.40025,cover=58.4763
+		5:[event_loc_dist_std<0.144507] yes=11,no=12,missing=11,gain=6.33754,cover=53.9258
+			11:leaf=-0.0580741,cover=46.3203
+			12:leaf=0.0366278,cover=7.60547
+		6:[event_time_r_c<0.13374] yes=13,no=14,missing=13,gain=8.94754,cover=4.5505
+			13:leaf=-0.0141616,cover=3.5368
+			14:leaf=0.246281,cover=1.0137
+booster[89]:
+0:[inc_cat<1.5] yes=1,no=2,missing=1,gain=6.66553,cover=5658.34
+	1:[age_cat<1.5] yes=3,no=4,missing=3,gain=30.4434,cover=652.488
+		3:[event_channel_r_p<0.0631649] yes=7,no=8,missing=7,gain=11.1885,cover=239.254
+			7:leaf=-0.0156744,cover=117.041
+			8:leaf=-0.0590302,cover=122.214
+		4:[gender_m<0.5] yes=9,no=10,missing=9,gain=15.8293,cover=413.234
+			9:leaf=0.0209745,cover=270.424
+			10:leaf=-0.0200669,cover=142.81
+	2:[event_channel_b<4.5] yes=5,no=6,missing=5,gain=9.82777,cover=5005.85
+		5:[event_card_c<0.5] yes=11,no=12,missing=11,gain=9.82918,cover=4361.25
+			11:leaf=0.000111351,cover=4257.89
+			12:leaf=-0.030952,cover=103.36
+		6:[event_loc_dist_q8<0.805893] yes=13,no=14,missing=14,gain=15.1567,cover=644.601
+			13:leaf=0.010768,cover=636.791
+			14:leaf=0.142905,cover=7.80982
+booster[90]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=6.6348,cover=5656.97
+	1:[card_inc<0.5] yes=3,no=4,missing=3,gain=6.81755,cover=5646.18
+		3:[event_mc_r_e<0.450806] yes=7,no=8,missing=7,gain=7.29168,cover=5586.44
+			7:leaf=6.55083e-05,cover=5509.83
+			8:leaf=-0.0308013,cover=76.6101
+		4:[event_loc_c<10.5] yes=9,no=10,missing=9,gain=11.8013,cover=59.7424
+			9:leaf=0.0214205,cover=56.8709
+			10:leaf=0.202593,cover=2.87143
+	2:[event_mc_r_j<0.106203] yes=5,no=6,missing=5,gain=1.17279,cover=10.7917
+		5:leaf=-0.0900594,cover=8.63082
+		6:[event_loc_dist_std<0.041818] yes=11,no=12,missing=11,gain=1.1075,cover=2.16085
+			11:leaf=-0.0540417,cover=1.16076
+			12:leaf=0.0493351,cover=1.00009
+booster[91]:
+0:[age_cat<2.5] yes=1,no=2,missing=1,gain=6.19732,cover=5655.96
+	1:[event_channel_b<8.5] yes=3,no=4,missing=3,gain=9.99069,cover=4979.18
+		3:[event_center_dist_q8<0.00323125] yes=7,no=8,missing=8,gain=9.41184,cover=4823.55
+			7:leaf=0.117856,cover=5.79773
+			8:leaf=0.000105533,cover=4817.75
+		4:[event_loc_dist_mean<0.608658] yes=9,no=10,missing=10,gain=20.2411,cover=155.634
+			9:leaf=0.0194285,cover=151.864
+			10:leaf=0.228946,cover=3.77057
+	2:[event_time_c<5.5] yes=5,no=6,missing=5,gain=14.7406,cover=676.782
+		5:[event_center_dist_q8<1.02528] yes=11,no=12,missing=11,gain=12.0541,cover=638.447
+			11:leaf=-0.0136884,cover=636.38
+			12:leaf=0.185179,cover=2.06674
+		6:[event_channel_r_b<0.0207259] yes=13,no=14,missing=13,gain=10.8526,cover=38.3358
+			13:leaf=-0.0122876,cover=16.0283
+			14:leaf=0.0939225,cover=22.3075
+booster[92]:
+0:[event_mc_r_h<0.134684] yes=1,no=2,missing=1,gain=6.13447,cover=5654.6
+	1:[event_amt_r_c<0.0696663] yes=3,no=4,missing=3,gain=6.72289,cover=5536.14
+		3:[events_weekday_1<30.5] yes=7,no=8,missing=7,gain=9.05431,cover=3107.15
+			7:leaf=-0.00318566,cover=3085.08
+			8:leaf=0.0597016,cover=22.0675
+		4:[event_amt_r_c<0.325198] yes=9,no=10,missing=9,gain=11.6924,cover=2429
+			9:leaf=0.00840381,cover=1799.48
+			10:leaf=-0.0074209,cover=629.52
+	2:[event_loc_c<3.5] yes=5,no=6,missing=5,gain=6.79036,cover=118.454
+		5:[events_weekday_r_0<0.329167] yes=11,no=12,missing=12,gain=7.39731,cover=108.86
+			11:leaf=-0.0382073,cover=98.6414
+			12:leaf=0.0479511,cover=10.2185
+		6:[event_mc_a<12.5] yes=13,no=14,missing=13,gain=10.8566,cover=9.59362
+			13:leaf=0.122778,cover=6.44849
+			14:leaf=-0.0816278,cover=3.14513
+booster[93]:
+0:[loc_x<-0.258788] yes=1,no=2,missing=1,gain=6.05169,cover=5653.47
+	1:[event_loc_angle_min<-1.68896] yes=3,no=4,missing=4,gain=17.4453,cover=1112.78
+		3:[event_loc_angle_std<2.20824] yes=7,no=8,missing=8,gain=13.4949,cover=36.906
+			7:leaf=0.0521506,cover=34.3149
+			8:leaf=0.259519,cover=2.59101
+		4:[event_center_dist_max<0.432294] yes=9,no=10,missing=10,gain=12.9922,cover=1075.88
+			9:leaf=0.0303063,cover=160.323
+			10:leaf=-0.000470762,cover=915.552
+	2:[event_amt_r_a<0.633122] yes=5,no=6,missing=5,gain=8.81073,cover=4540.69
+		5:[event_time_a<70.5] yes=11,no=12,missing=11,gain=10.5953,cover=4390.67
+			11:leaf=-0.0012639,cover=4369.7
+			12:leaf=0.0683572,cover=20.9691
+		6:[event_center_angle_med<2.78989] yes=13,no=14,missing=14,gain=9.37569,cover=150.02
+			13:leaf=-0.031557,cover=142.043
+			14:leaf=0.0741623,cover=7.97645
+booster[94]:
+0:[event_center_angle_med<3.09991] yes=1,no=2,missing=1,gain=5.99328,cover=5652.58
+	1:[event_center_angle_med<3.06579] yes=3,no=4,missing=3,gain=19.7116,cover=5641.63
+		3:[event_mc_r_d<0.645833] yes=7,no=8,missing=7,gain=6.10948,cover=5636.72
+			7:leaf=-0.000253202,cover=5631.19
+			8:leaf=0.0965507,cover=5.52712
+		4:[events_weekday_r_1<0.118824] yes=9,no=10,missing=10,gain=15.7823,cover=4.91291
+			9:leaf=-0.0350949,cover=1.93327
+			10:leaf=0.29708,cover=2.97965
+	2:[events_weekday_r_2<0.262014] yes=5,no=6,missing=6,gain=2.73608,cover=10.9463
+		5:leaf=-0.0941224,cover=8.70296
+		6:[event_time_-<2.5] yes=11,no=12,missing=11,gain=1.82739,cover=2.24332
+			11:leaf=0.0792356,cover=1.21045
+			12:leaf=-0.0532883,cover=1.03287
+booster[95]:
+0:[card_dec<0.5] yes=1,no=2,missing=1,gain=5.97169,cover=5651.95
+	1:[inc_cat<3.5] yes=3,no=4,missing=3,gain=5.81769,cover=5641.87
+		3:[event_mc_r_d<0.0336607] yes=7,no=8,missing=7,gain=8.0448,cover=5138.68
+			7:leaf=-0.00225191,cover=4636.79
+			8:leaf=0.0110642,cover=501.891
+		4:[event_center_angle_mean<-2.99674] yes=9,no=10,missing=9,gain=20.9914,cover=503.195
+			9:leaf=0.138927,cover=11.3803
+			10:leaf=0.00705484,cover=491.815
+	2:[events_weekday_r_2<0.248457] yes=5,no=6,missing=5,gain=1.20936,cover=10.0786
+		5:leaf=-0.089297,cover=8.00526
+		6:[idle_days_rate<0.0649109] yes=11,no=12,missing=12,gain=1.04869,cover=2.07336
+			11:leaf=0.049365,cover=1.00017
+			12:leaf=-0.0521649,cover=1.07319
+booster[96]:
+0:[event_center_dist_q5<0.824374] yes=1,no=2,missing=1,gain=5.69919,cover=5651.23
+	1:[event_center_dist_q2<0.775408] yes=3,no=4,missing=3,gain=10.5603,cover=5414.3
+		3:[event_center_dist_min<0.773848] yes=7,no=8,missing=7,gain=9.25942,cover=5315.97
+			7:leaf=-0.000368026,cover=5301.57
+			8:leaf=0.077285,cover=14.4002
+		4:[loc_y<0.10472] yes=9,no=10,missing=9,gain=10.8584,cover=98.326
+			9:leaf=-0.0651074,cover=50.2026
+			10:leaf=0.00103076,cover=48.1234
+	2:[event_amt_r_b<0.324662] yes=5,no=6,missing=5,gain=20.8333,cover=236.937
+		5:[event_loc_angle_max<-1.71861] yes=11,no=12,missing=12,gain=16.5817,cover=131.191
+			11:leaf=0.235858,cover=1.65894
+			12:leaf=-0.016497,cover=129.533
+		6:[event_amt_r_a<0.311017] yes=13,no=14,missing=13,gain=17.3903,cover=105.746
+			13:leaf=0.0332,cover=94.8633
+			14:leaf=0.162291,cover=10.8823
+booster[97]:
+0:[event_loc_angle_diff<4.63077] yes=1,no=2,missing=1,gain=5.65862,cover=5650.45
+	1:[event_loc_angle_max<2.01189] yes=3,no=4,missing=3,gain=9.81628,cover=5365.71
+		3:[events_weekday_r_6<0.162033] yes=7,no=8,missing=7,gain=9.29527,cover=5110.03
+			7:leaf=0.00133747,cover=4453.73
+			8:leaf=-0.0114015,cover=656.301
+		4:[event_center_dist_q5<0.0175519] yes=9,no=10,missing=10,gain=17.6855,cover=255.677
+			9:leaf=0.070341,cover=53.4356
+			10:leaf=0.00609073,cover=202.241
+	2:[event_loc_dist_max<0.0222013] yes=5,no=6,missing=6,gain=11.614,cover=284.737
+		5:[event_center_angle_mean<0.759195] yes=11,no=12,missing=12,gain=19.0731,cover=15.7924
+			11:leaf=-0.0270488,cover=9.20109
+			12:leaf=0.184602,cover=6.59133
+		6:[event_center_dist_max<0.0724273] yes=13,no=14,missing=14,gain=13.9105,cover=268.945
+			13:leaf=-0.0492811,cover=95.145
+			14:leaf=-0.00186515,cover=173.8
+booster[98]:
+0:[event_center_angle_min<-3.1253] yes=1,no=2,missing=2,gain=5.61754,cover=5650.3
+	1:[events_weekday_r_0<0.0819892] yes=3,no=4,missing=4,gain=3.01663,cover=11.6673
+		3:leaf=0.0352684,cover=1.87701
+		4:[event_loc_dist_q2<0.00136913] yes=7,no=8,missing=8,gain=0.708482,cover=9.79033
+			7:leaf=-0.00391875,cover=1.01283
+			8:leaf=-0.0958386,cover=8.7775
+	2:[event_loc_r_c<0.0887482] yes=5,no=6,missing=5,gain=5.84824,cover=5638.63
+		5:[inc_cat<1.5] yes=9,no=10,missing=9,gain=9.16204,cover=4976.39
+			9:leaf=-0.0127671,cover=591.408
+			10:leaf=0.00048237,cover=4384.98
+		6:[event_amt_r_c<0.573593] yes=11,no=12,missing=11,gain=14.3542,cover=662.237
+			11:leaf=0.0146466,cover=574.923
+			12:leaf=-0.0286619,cover=87.3143
+booster[99]:
+0:[idle_days<174.5] yes=1,no=2,missing=1,gain=5.50758,cover=5649.65
+	1:[event_loc_angle_diff<3.20712] yes=3,no=4,missing=3,gain=5.60044,cover=5622.71
+		3:[event_loc_angle_diff<2.6193] yes=7,no=8,missing=7,gain=12.373,cover=5035.59
+			7:leaf=0.000463882,cover=4918.5
+			8:leaf=0.0332187,cover=117.095
+		4:[event_center_dist_max<0.0228606] yes=9,no=10,missing=10,gain=13.4741,cover=587.117
+			9:leaf=0.0596585,cover=26.2272
+			10:leaf=-0.0123951,cover=560.89
+	2:[event_loc_x_med<-0.003986] yes=5,no=6,missing=5,gain=4.25437,cover=26.937
+		5:[event_loc_x_med<-0.005922] yes=11,no=12,missing=11,gain=11.8067,cover=8.6321
+			11:leaf=-0.0422857,cover=7.43904
+			12:leaf=0.21831,cover=1.19306
+		6:[loc_x<-0.361188] yes=13,no=14,missing=13,gain=2.78569,cover=18.3049
+			13:leaf=0.00671905,cover=3.62551
+			14:leaf=-0.088792,cover=14.6794
