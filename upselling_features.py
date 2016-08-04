@@ -191,7 +191,6 @@ def extract_features(table_users, table_events, train_target=False, year=2014):
         n_events = user_events.shape[0]
         features += [
             ('events', n_events),
-            
             ('uniq_poi', user_events.POI_ID.nunique()),
             ('uniq_poi_b', user_events.query('CHANNEL == "b"').POI_ID.nunique()),
             ('uniq_poi_n', user_events.query('CHANNEL == "n"').POI_ID.nunique()),
