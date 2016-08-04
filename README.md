@@ -2,7 +2,11 @@
 
 The competition task was to predict whether the user may apply for a credit card in the next 6 months, which is important for OTP bank to iniate an aupselling. Organizers provided one year of historic data on user attributes, activity events and geolocation. It was organized as a classification contest, evaluated with Area Under the Curve (AUC).
 
+[Full description of the competition](https://dms.sztaki.hu/ecml-pkkd-2016/#/app/tasks)
+
 ## Features
+
+To represent user with a feature vector, several logical group of features were designed. They described below. Some features could not been computed for some users due to lack of user information or events of some kind, in this case the feature has missing value.
 
 ### Personal
 
@@ -56,13 +60,13 @@ The geographical coordinates of branches of the bank and points of sale were pro
 
 ## Prediction model
 
-To build classification model, the model of choice was XGBoost with binary classification objective and default parameter settings: 
-- maximal tree depth = 3
+To build classification model, the model of choice was [XGBoost](https://xgboost.readthedocs.io/) with binary classification objective and default parameter settings: 
+- maximum tree depth = 3
 - 100 iterations  
 - learning rate = 0.1
 We tried to tune maximum tree depth, learning rate and different chemes of filling missing values, but default settings were sufficient for our score. 
 
-Simple cross-validation didn't provide any significant accuracy gain. Moreover, fair corss-validation wasn't feasible due to little data and lack of year-to-year overlaps. Hence the idea was to stick with the Occam's Razor and build a simple yet reasonable model to counter potential overfitting.
+Tuning parameters such as maximum tree depth, learning rate and several schemes of filling missing values didn't provide any significant gain on AUC-ROC estimated with simple stratified cross-validation on the one year data. Moreover, fair cross-validation wasn't feasible due to lack of year-to-year overlaps. Hence the idea was to stick with the Occam's Razor and build a simple yet reasonable model to counter potential overfitting.
 
 
 ## How to reproduce the results
@@ -72,6 +76,4 @@ Simple cross-validation didn't provide any significant accuracy gain. Moreover, 
 3. Run `python upselling_model.py` to generate submission file and model dump (in `result` folder).
 
 Python scripts depends on several packages listed in `requirements.txt`.
-
-
 
