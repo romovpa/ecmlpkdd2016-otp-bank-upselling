@@ -2,7 +2,8 @@
 
 The competition task was to predict whether the user may apply for a credit card in the next 6 months, which is important for OTP bank to iniate an aupselling. Organizers provided one year of historic data on user attributes, activity events and geolocation. It was organized as a classification contest, evaluated with Area Under the Curve (AUC).
 
-[Full description of the competition](https://dms.sztaki.hu/ecml-pkkd-2016/#/app/tasks)
+- [Full description of the competition](https://dms.sztaki.hu/ecml-pkkd-2016/#/app/tasks)
+- [Slides for ECML/PKDD workshop](http://www.slideshare.net/romovpa/a-simple-yet-efficient-method-for-a-credit-card-upselling-prediction)
 
 ## Features
 
