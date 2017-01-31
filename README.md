@@ -4,6 +4,7 @@ The competition task was to predict whether the user may apply for a credit card
 
 - [Full description of the competition](https://dms.sztaki.hu/ecml-pkkd-2016/#/app/tasks)
 - [Slides for ECML/PKDD workshop](http://www.slideshare.net/romovpa/a-simple-yet-efficient-method-for-a-credit-card-upselling-prediction)
+- [Paper](https://github.com/romovpa/ecmlpkdd2016-otp-bank-upselling/raw/master/paper/romov-discovery-challenge-2016-paper.pdf)
 
 ## Features
 
